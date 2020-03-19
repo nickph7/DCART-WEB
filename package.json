@@ -1,0 +1,24 @@
+{
+  "name": "DCART-WEB",
+  "version": "1.0.0",
+  "description": "Website for the Design Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw-build" : "npx tailwind build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falaeco/DCART-WEB.git"
+  },
+  "keywords": [],
+  "author": "Nicolas Prudhomme, David Rawalia, Markus Specogna, Wednesday, Tiyasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/falaeco/DCART-WEB/issues"
+  },
+  "homepage": "https://github.com/falaeco/DCART-WEB#readme",
+  "devDependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}
