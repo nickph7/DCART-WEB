@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw-build" : "npx tailwind build"
+    "tw-build": "postcss src/style/style.css -o public/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/falaeco/DCART-WEB#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   }
 }
