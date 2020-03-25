@@ -422,6 +422,30 @@ body {
   }
 }
 
+.container_row{
+  display: grid;
+}
+
+.logo-back {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-front {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
   font-family: Supply, Consolas, monospace;
   border-width: 1px;
@@ -463,6 +487,8 @@ body {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  width: 30rem;
+  height: 30rem;
 }
 
 .mx-auto {
