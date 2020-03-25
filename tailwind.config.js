@@ -5,9 +5,11 @@ module.exports = {
       'display' : ['Supply', 'Consolas','monospace'],
       'body' : ['"Object Sans"', '"Avenir Next"', 'Avenir', '"Century Gothic"', 'Helvetica', 'Arial', 'sans-serif']
     },
-    container: {
-      center: true,
-      padding: '2rem'
+    inset: {
+      '1/2': '50%'
+    },
+    height: {
+      '4/5-screen': '80vh'
     }
   },
   variants: {},

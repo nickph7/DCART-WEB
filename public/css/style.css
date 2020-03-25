@@ -311,7 +311,8 @@ a {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-img {
+img,
+svg {
   display: block;
   vertical-align: middle;
 }
@@ -456,13 +457,8 @@ body {
   font-family: Supply, Consolas, monospace;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.h-4\/5-screen {
+  height: 80vh;
 }
 
 .mx-auto {
@@ -482,9 +478,29 @@ body {
   margin-right: 2rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-1\/2 {
+  left: 50%;
 }
 
 .text-center {
@@ -497,6 +513,37 @@ body {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.transform {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.-translate-x-1\/2 {
+  --transform-translate-x: -50%;
+}
+
+.-translate-y-1\/2 {
+  --transform-translate-y: -50%;
 }
 
 @media (min-width: 640px) {
