@@ -15,13 +15,9 @@
         <div class="hero h-screen">
 
             <div class="container mx-auto py-1">
-                <div class="container_row">
-                    <div class="logo-back">
-                        <img src="img/logo5-back.svg" class="mx-auto my-2" alt="in.finite logo back">
-                    </div>
-                    <div class="logo-front">
-                        <img src="img/logo5-front.svg" class="mx-auto my-2" alt="in.finite logo top">
-                    </div>
+                <div class="relative w-full h-4/5-screen overflow-hidden">
+                    <img src="img/logo5-back.svg" id="logo-back" class="logo-back absolute z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="in.finite logo back">
+                    <img src="img/logo5-front.svg" id="logo-front" class="logo-front absolute z-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="in.finite logo top">
                 </div>
                 <div class="info w-3/4 md:w-full lg:w-3/4 mx-auto flex flex-col justify-center sm:flex-row text-center sm:text-left">
                     <div class="info-section mb-4 sm:mb-0 sm:mr-20 flex flex-col md:flex-row">
@@ -47,6 +43,7 @@
                     <a class="btn mr-8" href="sponsor.html">RSVP</a>
                     <a class="btn" href="sponsor.html">Sponsor Us</a>
                 </div>
+                
             </div>
         </div>
     </main>

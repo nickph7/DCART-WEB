@@ -7,12 +7,13 @@ window.onload = animate;
 
 function animate(){
   // define logo background
-  logo = document.getElementsByClassName("logo-back")[0];
+  logo = document.getElementById("logo-back");
   // listen for mouse movement and get cursor location
   if (window.Event) {
-	document.captureEvents(Event.MOUSEMOVE);
+    //deprecate function here
+	  document.captureEvents(Event.MOUSEMOVE);
   };
-	document.onmousemove = getCursorXY;
+	  document.onmousemove = getCursorXY;
 };
 
 function getCursorXY(e) {
@@ -55,7 +56,7 @@ function refreshData()
 
   // Change logo current rotation
   if(logo){
-    logo.style.transform = "rotate("+ currentAngle +"rad)";
+    logo.style.transform = "translate(-50%, -50%) rotate("+ currentAngle +"rad)";
   }
 
   // Pause for 16ms for a 60fps framerate
