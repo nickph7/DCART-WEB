@@ -8,6 +8,8 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/logo.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="https://kit.fontawesome.com/d7da34aca9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header></header>
@@ -16,36 +18,50 @@
             
             <!-- Logo Animation -->
             <div class="container mx-auto">
-                <div class="relative w-full h-4/5-screen overflow-hidden">
+                <div class="relative w-full h-3/5-screen overflow-hidden">
                     <img src="img/logo5-back.svg" id="logo-back" class="logo-back absolute z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="in.finite logo back">
                     <img src="img/logo5-front.svg" id="logo-front" class="logo-front absolute z-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="in.finite logo top">
                 </div>
 
 
+                <!-- Launch Countdown -->
+                <div class="launch text-3xl md:text-4xl lg:text-5xl xl:text-6xl mx-auto flex justify-center mb-8">
+                    <p class="font-display" id="countdown"></p>
+                </div>
+                
                 <!-- Exhibition information -->
-                <div class="info w-full md:w-full lg:w-full mx-auto flex flex-col justify-center sm:flex-row text-center sm:text-center">
-                    <div class="info-section sm:mb-10 flex flex-col md:flex-row">
-                        <p class="font-display uppercase mr-8 ml-8">Launch</p>
-                        
-                        <div>
-                            <p class="mr-8 ml-8">23 April</p>
-                        </div>
+                <div class="info text-2xl w-full mx-auto flex flex-col justify-center sm:flex-row text-center max-w-xl">
+                    <p class="font-display uppercase mr-8 ml-8">Launch</p>
+                    
+                    <div class="mx-8 text-center sm:text-left">
+                        <p class="">Thursday, 23 April</p>
+                        <p>6:00PM</p>
                     </div>
                 </div>
-
+               
                 <!-- Buttons -->
                 <div class= "mx-auto flex justify-center mt-6 md:mt-6 mb-4">
-                    <!-- <a class="btn mr-8" href="sponsor.html">RSVP</a> -->
-                    <a class="btn uppercase mr-8 ml-8" href="mailto:design.show@concordia.ca?Subject=Hello">Sponsor Us</a>
-                    <a class="btn uppercase mr-8 ml-8" href="https://www.instagram.com/in.finite2020/" target="_blank">Instagram</a>
+                    <a class="btn text-2xl px-8 border-1" href="https://www.facebook.com/events/870462906750141/" target="_blank">RSVP</a>
+                    <!-- <a class="btn uppercase mr-8 ml-8" href="mailto:design.show@concordia.ca?Subject=Hello">Sponsor Us</a>
+                    <a class="btn uppercase mr-8 ml-8" href="https://www.instagram.com/in.finite2020/" target="_blank">Instagram</a> -->
                 </div>
 
             </div>
         </div>
     </main>
 
-    <footer>
-
+    <footer class="bg-black py-8 px-4 sm:px-8 md:px-12 mt-8 text-white">
+        <div class="flex justify-between items-center max-w-6xl mx-auto">
+            <!-- Internet mail-->
+            <div class="">
+                <a href="mailto:graduationshow@concordia.ca">graduationshow@concordia.ca</a>
+            </div>
+            <!-- Social Icon -->
+            <div class="flex">
+                <a href="https://www.facebook.com/concordiadesignshow/" target="_blank"><i class="fab fa-facebook-f fa-2x mr-6"></i></a>
+                <a href="https://www.instagram.com/in.finite2020/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
