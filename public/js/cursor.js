@@ -1,4 +1,4 @@
-let mouseCursor = document.querySelector(".cursor");
+let mouseCursor = document.querySelector("#cursor");
 
 function cursor(e){
     mouseCursor.style.top = e.pageY + 'px';

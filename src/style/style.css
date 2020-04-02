@@ -54,6 +54,7 @@
 
 body {
     @apply font-body;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-1 {
     border-width: 1.5px;
+    border-radius: 8px;
 }
 
 @tailwind components;
@@ -74,9 +76,5 @@ h1, h2, h3, h4, h5, h6 {
     @apply bg-black text-white;
 }
 
-#cursor {
-    cursor: url(public/img/cursor_black.svg), auto;
-    
-}
 
 @tailwind utilities;
