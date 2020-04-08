@@ -393,15 +393,15 @@ img {
 
 body {
   font-family: "Object Sans", "Avenir Next", Avenir, "Century Gothic", Helvetica, Arial, sans-serif;
-  cursor: url("img/cursor_black.svg"), auto;
+  cursor: url("../img/cursor_black.svg"), auto;
 }
 
 .custom-cursor {
-  cursor: url("img/cursor_black.svg"), auto;
+  cursor: url("../img/cursor_black.svg"), auto;
 }
 
 footer {
-  cursor: url("img/cursor_white_b.svg"), auto;
+  cursor: url("../img/cursor_white_b.svg"), auto;
 }
 
 .container {
