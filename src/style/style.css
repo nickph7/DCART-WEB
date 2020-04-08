@@ -55,7 +55,7 @@ body {
 }
 
 .custom-cursor {
-    cursor: url("/public/img/cursor_black.svg"), move;
+    cursor: url("img/cursor_black.svg"), auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-    cursor: url("/public/img/cursor_white_b.svg"), move;
+    cursor: url("img/cursor_white_b.svg"), auto;
 }
 
 @tailwind components;
