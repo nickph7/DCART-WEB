@@ -59,18 +59,27 @@ body {
 }
 
 
+.english-text {
+    @apply en-body;
+
+}
+
+.en-body {
+    font-size: .9rem;
+}
+
 .french-text {
-    @apply fr-italic;
+    @apply fr-body-italic;
 }
 
 
-.fr-italic {
+.fr-body-italic {
     font-family: 'Object Sans';
     src: url('fonts/objectsans-slanted.woff2') format('woff2'),
          url('fonts/objectsans-slanted.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-
+    font-size: .9rem;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -404,12 +404,17 @@ body {
   cursor: url("../img/cursor_black.svg"), auto;
 }
 
+.english-text {
+  font-size: .9rem;
+}
+
 .french-text {
   font-family: 'Object Sans';
   src: url('fonts/objectsans-slanted.woff2') format('woff2'),
          url('fonts/objectsans-slanted.woff') format('woff');
   font-weight: normal;
   font-style: italic;
+  font-size: .9rem;
 }
 
 footer {
@@ -516,6 +521,10 @@ footer {
   margin-right: 0;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -591,6 +600,10 @@ footer {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-white {
   color: #fff;
 }
@@ -605,6 +618,10 @@ footer {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .w-full {
