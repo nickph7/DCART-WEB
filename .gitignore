@@ -113,3 +113,24 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+
+#OS THINGS
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# built files - Removed from testing purposes
+#www/assets
+#www/site/snippets/vue-index.php
+#www/favicon.ico
+
+# local env files - Want to keep the same read-only API between accounts
+.env.local
+.env.*.local

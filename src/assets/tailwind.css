@@ -1,0 +1,86 @@
+/*
+@tailwind base;
+
+
+@font-face {
+    font-family: 'Supply';
+    src: url('fonts/Supply-Bold.woff2') format('woff2'),
+         url('fonts/Supply-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Supply';
+    src: url('fonts/Supply-Medium.woff2') format('woff2'),
+         url('fonts/Supply-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Supply';
+    src: url('fonts/Supply-Regular.woff2') format('woff2'),
+         url('fonts/Supply-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/objectsans-regular.woff2') format('woff2'),
+         url('fonts/objectsans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/objectsans-slanted.woff2') format('woff2'),
+         url('fonts/objectsans-slanted.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/objectsans-medium.woff2') format('woff2'),
+         url('fonts/objectsans-medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    @apply font-body custom-cursor;
+}
+
+.custom-cursor {
+    cursor: url("../img/cursor_black.svg"), auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+}
+
+.border-1 {
+    border-width: 1.5px;
+    border-radius: 8px;
+}
+
+footer {
+    cursor: url("../img/cursor_white_b.svg"), auto;
+}
+
+@tailwind components;
+
+.btn {
+    @apply font-display border-1 border-black px-4 py-2 transition duration-300;
+}
+
+.btn:hover {
+    @apply bg-black text-white;
+}
+
+
+@tailwind utilities;
+*/
