@@ -521,10 +521,6 @@ footer {
   margin-right: 0;
 }
 
-.mb-0 {
-  margin-bottom: 0;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -618,10 +614,6 @@ footer {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .w-full {
