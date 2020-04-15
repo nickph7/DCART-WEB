@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     updateTitle(pageTitle) {
-      document.title = `in.finite - Concordia Design Show`
+      document.title = `${this.$site.title} | ${pageTitle}`
     }
   }
 }
