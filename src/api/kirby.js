@@ -1,6 +1,6 @@
 // HTTP Basic auth headers
 const auth = btoa(process.env.VUE_APP_API_EMAIL + ':' + process.env.VUE_APP_API_PASSWORD)
-const headers = { Authorization: 'Basic ' + auth }
+const headers = { Authorization: 'Basic ' + auth}
 
 // base url for api requests
 const url = window.location.origin + process.env.BASE_URL + 'api'
@@ -30,6 +30,11 @@ export default {
   async getPage(id) {
     const page = await get(`pages/${id}?select=content`)
     return page.content
+  },
+
+  async getNextPage(page){
+    const nextPage = await get(`pages/${page}?select=next`)
+    return nextPage
   },
 
   async getChildren(page) {
