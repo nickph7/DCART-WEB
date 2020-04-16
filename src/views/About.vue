@@ -51,11 +51,20 @@ export default {
   mixins: [page],
   async created() {
     await this.pageLoaded
-    this.page.address = this.page.text = null
+    this.page.address = this.page.text = this.page.textfr = null
 
-    const kts = await this.$api.getKirbyText(this.pageId, 'address', 'text')
-    this.page.address = kts.address
-    this.page.text = kts.text
+    const kts = await this.$api.getKirbyText(this.pageId, 'address', 'texten', 'textfr')
+  
+    if (this.vueI18n.locale === 'en'){
+      this.page.address = kts.address
+      this.page.text = kts.texten
+    }
+    else{
+      this.page.address = kts.address
+      this.page.text = kts.textfr
+
+    }
+
   }
 }
 </script>

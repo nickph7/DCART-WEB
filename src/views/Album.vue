@@ -1,7 +1,7 @@
 <template>
   <main class="album">
     <router-link :to="'/' + nextPage">
-    Next page
+      Next page
     </router-link>
     <article>
       <header>
@@ -119,7 +119,7 @@ export default {
 .album-gallery[data-count='2'] {
   grid-template-columns: 1fr 1fr;
 }
-.next-button{
+.next-button {
   padding: 2rem;
 }
 </style>
