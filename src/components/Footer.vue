@@ -2,9 +2,9 @@
   <footer class="footer">
     <router-link to="/"> &copy; {{ new Date().getFullYear() }} / {{ $site.title }} </router-link>
 
-    <nav class="social">
+    <!-- <nav class="social">
       <a v-for="social in about.social" :key="social.id" :href="social.url"> {{ social.platform }} </a>
-    </nav>
+    </nav> -->
   </footer>
 </template>
 
@@ -24,12 +24,17 @@ export default {
 
 <style>
 .footer {
-  padding: 1.5rem 5vw 10vh;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin-top: 2rem;
   text-align: center;
   max-width: var(--content-width);
-  margin: 0 auto;
   line-height: 1.5em;
+  height: 100px;
 }
+
 .footer a {
   display: inline-block;
   font-size: 0.875rem;

@@ -1,4 +1,4 @@
-/*
+
 @tailwind base;
 
 
@@ -51,12 +51,12 @@
 }
 
 body {
-    @apply font-body custom-cursor;
+    @apply font-body;
 }
 
-.custom-cursor {
+/* .custom-cursor {
     cursor: url("../img/cursor_black.svg"), auto;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
     @apply font-display;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-    cursor: url("../img/cursor_white_b.svg"), auto;
+    cursor: url("img/cursor_white_b.svg"), auto;
 }
 
 @tailwind components;
@@ -83,4 +83,3 @@ footer {
 
 
 @tailwind utilities;
-*/
