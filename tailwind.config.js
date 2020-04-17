@@ -12,7 +12,7 @@ module.exports = {
       '2/5-screen': '40vh',
       '3/5-screen': '60vh',
       '4/5-screen': '80vh',
-      screen: '100vh'
+      'h-screen': '100vh'
     }
   },
   variants: {},
