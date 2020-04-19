@@ -1,13 +1,22 @@
 var velocity = 0;
 var theta = 0;
 var currentAngle = 0;
+var imgNum;
 var logo;
+var logoFront;
+
 
 window.onload = animate;
 
 function animate(){
-  // define logo background
+  // pick one of the logos at random
+  imgNum = Math.floor((Math.random() * 8) + 1);
+  // define logo
   logo = document.getElementById("logo-back");
+  logoFront = document.getElementById("logo-front");
+  logo.src = "img/logo" + imgNum + "-back.svg";
+  logoFront.src = "img/logo" + imgNum + "-front.svg";
+  console.log(imgNum);
   // listen for mouse movement and get cursor location
   if (window.Event) {
     //deprecate function here
