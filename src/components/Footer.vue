@@ -1,6 +1,6 @@
 <template>
-  <footer class="footer">
-    <router-link to="/"> &copy; {{ new Date().getFullYear() }} / {{ $site.title }} </router-link>
+  <footer class="footer bg-black py-8 px-4 mt-8 sm:px-8 md:px-12 text-white md: mt-8 sm: mt-10">
+    <router-link to="/"> {{ $site.title }} </router-link>
 
     <!-- <nav class="social">
       <a v-for="social in about.social" :key="social.id" :href="social.url"> {{ social.platform }} </a>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style>
-.footer {
+/* .footer {
   color: white;
   background-color: black;
   border: 1px solid black;
@@ -55,5 +55,5 @@ export default {
 .social a:hover {
   background: #000;
   color: #fff;
-}
+} */
 </style>

@@ -54,9 +54,9 @@ body {
     @apply font-body;
 }
 
-/* .custom-cursor {
-    cursor: url("../img/cursor_black.svg"), auto;
-} */
+.custom-cursor {
+    cursor: url("img/cursor_black.svg"), auto;
+}
 
 h1, h2, h3, h4, h5, h6 {
     @apply font-display;

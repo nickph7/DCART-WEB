@@ -1,25 +1,31 @@
 <template>
-  <header class="header">
-    <router-link to="/" class="logo"> {{ $site.title }} </router-link>
+  <header class="header py-8 px-4 text-white">
+    <router-link to="/">
+      <div class="title-logo">
+        <img src="../assets/img/final_logo3_b2.svg">
+      </div>
+    </router-link>
 
-    <nav id="menu" class="menu">
-      <router-link v-for="page in $site.children.filter(page => page.status === 'listed')" :key="page.id" :to="'/' + page.id">
-        {{ page.title }}
-      </router-link>
-    </nav>
+    <Nav></Nav>
   </header>
 </template>
 
 <script>
+import Nav from '@/components/Nav.vue'
+
 export default {
+  components: {
+    Nav
+  },
   name: 'Header'
 }
 </script>
 
 <style scoped>
 .header {
-  margin-bottom: 1.5rem;
+  border-bottom: 1px solid black;
 }
+
 
 .header a {
   position: relative;
@@ -43,6 +49,7 @@ export default {
 }
 
 .menu a {
+  color: black;
   margin: 0 0.75rem;
 }
 

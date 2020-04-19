@@ -30,4 +30,17 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.StreamBar {
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.mistvideo {
+  border-radius: 13px;
+}
+</style>
