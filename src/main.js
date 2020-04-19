@@ -5,28 +5,27 @@ import KirbyApi from '@/api/kirby'
 import i18n from './i18n'
 import Vuex from 'vuex'
 import VueGlobalVariable from 'vue-global-var'
-
+import vueVimeoPlayer from 'vue-vimeo-player'
 
 Vue.config.productionTip = false
 
 Vue.use(Vuex)
-
 Vue.use(VueGlobalVariable, {
   globals: {
-    vueI18n: i18n,
-  },
-  });
-  
+    vueI18n: i18n
+  }
+})
+Vue.use(vueVimeoPlayer)
 
 // self invoke async initialization
 ;(async () => {
   const site = await KirbyApi.getSite()
   const router = await Router.init(site)
-  
+
   // globals
   Vue.prototype.$api = KirbyApi
   Vue.prototype.$site = site
- 
+
   new Vue({
     router,
     i18n,

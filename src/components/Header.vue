@@ -1,7 +1,9 @@
 <template>
-  <header class="header py-8 px-4 text-white">
+  <header class="header py-10 px-10 text-white">
     <router-link to="/">
-      <div class="title-logo">
+      <div class="title-logodisplay: flex;
+  flex-direction: column;
+  align-items: center;">
         <img src="../assets/img/final_logo3_b2.svg">
       </div>
     </router-link>
@@ -23,34 +25,18 @@ export default {
 
 <style scoped>
 .header {
-  border-bottom: 1px solid black;
-}
-
-
-.header a {
-  position: relative;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: 0.05em;
-  padding: 0.5rem 0;
-  font-weight: 700;
-}
-
-.header .logo {
-  display: block;
-  margin-bottom: 1.5rem;
-  padding: 0.5rem 0;
-}
-
-.header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  /* border-bottom: 1px solid black; */
+  width: 100vw;
+  background-color: #ffffff50;
+  z-index: 99;
 }
 
 .menu a {
   color: black;
-  margin: 0 0.75rem;
 }
 
 .menu a[aria-current],
@@ -59,15 +45,9 @@ export default {
 }
 
 @media screen and (min-width: 40rem) {
-  .header .logo {
-    margin-bottom: 0;
-  }
   .header {
     flex-direction: row;
     justify-content: space-between;
-  }
-  .menu {
-    margin-right: -0.75rem;
   }
 }
 </style>

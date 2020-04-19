@@ -31,16 +31,22 @@ export default {
 </script>
 
 <style>
+/** its not gonna work 
+have faith have faith.
+*/
 .StreamBar {
   height: 100vh;
-  border: 1px solid red;
+  /* position: absolute; */
+  padding-left: 2.5rem;
+  border-bottom: 1px dashed red;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
+  /* z-index: 98; */
 }
 
 .mistvideo {
-  border-radius: 13px;
+  border-radius: 8px;
 }
 </style>
