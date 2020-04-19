@@ -18,4 +18,15 @@ Cette collection d'œuvres invite les créateurs et les spectateurs à s'interro
 
 ----
 
-Title: About the exhibtion
+Quoteen:
+
+“In.finite is an exhibition that showcases the process, conception, and realization of a diverse skill set that lives within the Department of Design and Computation Arts of Concordia University.”
+
+----
+
+Quotefr: 
+
+« In.fini est une exposition qui présente le processus, la conceptualisation et la réalisation d’un ensemble de compétences diverses qui vivent au sein du département de design et d’arts numériques de l’université Concordia. »
+
+
+Title: About

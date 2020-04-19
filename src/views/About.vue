@@ -1,43 +1,13 @@
 <template>
   <main>
-    <Intro :pageTitle="page.title" />
-
-    <div class="layout">
-      <aside>
-        <section>
-          <h2>Address</h2>
-          <div class="text">
-            <span v-html="page.address"></span>
-          </div>
-        </section>
-
-        <section>
-          <h2>Email</h2>
-          <div class="text">
-            <a :href="'mailto:' + page.email">{{ page.email }}</a>
-          </div>
-        </section>
-
-        <section>
-          <h2>Phone</h2>
-          <div class="text">
-            <a :href="'tel:' + page.phone">{{ page.phone }}</a>
-          </div>
-        </section>
-        <section>
-          <h2>On the web</h2>
-          <div class="text">
-            <ul>
-              <li v-for="social in page.social" :key="social.id">
-                <a :href="social.url">{{ social.platform }}</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </aside>
-
-      <div class="text">
-        <span v-html="page.text"></span>
+    <div class="about py-10 px-10">
+      <div class="intro-text mb-10 md:mb-0 xl:mb-0">
+        <div class="divider"></div>
+        <span class="py-4 px-4" v-html="page.text"></span>
+      </div>
+      <div class="intro-quote-text font-display text-justify">
+        <div class="divider"></div>
+        <span class="py-4 px-4" v-html="page.quoteen"></span>
       </div>
     </div>
   </main>
@@ -54,39 +24,63 @@ export default {
     this.page.address = this.page.text = this.page.textfr = null
 
     const kts = await this.$api.getKirbyText(this.pageId, 'address', 'texten', 'textfr')
-  
-    if (this.vueI18n.locale === 'en'){
+
+    if (this.vueI18n.locale === 'en') {
       this.page.address = kts.address
       this.page.text = kts.texten
-    }
-    else{
+    } else {
       this.page.address = kts.address
       this.page.text = kts.textfr
-
     }
-
   }
 }
 </script>
 
 <style>
-.layout {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 3rem;
+.about {
+  height: 100vh;
+  border-bottom: 1px dashed cyan;
+}
+
+.intro-text {
+  font-size: 1.5vmax;
+  display: flex;
+  flex-direction: column;
+  height: 675px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.divider {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+
+.intro-quote-text {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
 }
 
 @media screen and (min-width: 45rem) {
-  .layout {
-    grid-template-columns: 1fr 2fr;
+  .intro-text {
+    font-size: 14px;
+    position: absolute;
+    left: 2.5rem;
+    height: 750px;
+    width: 575px;
   }
-}
-
-.layout aside section {
-  margin-bottom: 3rem;
-}
-
-.layout aside h2 {
-  margin-bottom: 0.75rem;
+  .intro-quote-text {
+    position: relative;
+    left: 30rem;
+    top: 35rem;
+    height: auto;
+    width: 300px;
+  }
 }
 </style>

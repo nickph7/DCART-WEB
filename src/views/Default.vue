@@ -1,4 +1,5 @@
 <template>
+  <!-- Fall back page -->
   <main>
     <Intro :pageTitle="page.title" />
     <p>This is the default template</p>

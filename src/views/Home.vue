@@ -4,10 +4,10 @@
 
     <!--Curatorial statement -->
     <div class="about-section justify-center items-center text-justify py-10 px-10 flex flex-col md:flex-row xl:flex-row ">
-      <p class="curatext-box py-4 px-4">
-        <span v-html="page.curatext"></span>
-        <!-- TRIBUTE TEXT <span v-html=""></span> -->
-      </p>
+      <div class="curatext-box mb-10 md:mb-0 xl:mb-0">
+        <div class="intro-text-divider"></div>
+        <span class="py-4 px-4" v-html="curationtext"></span>
+      </div>
       <!-- TODO: Could transfer this into its own component -->
       <div class="intro-video py-4 px-4">
         <vimeo-player ref="player" :video-id="407147635" />
@@ -18,13 +18,12 @@
       <Filters></Filters>
     </div>
     <!-- Valérie Lamontagne honor statement  -->
-    <!-- <div class="honor-statement"></div> -->
+    <div class="honor-statement"></div>
 
     <!-- Sponsors -->
     <div class="sponsor-section justify-center items-center text-justify py-10 px-10 flex flex-col md:flex-row xl:flex-row ">
       <!-- <h2>{{ $t('home.sponsor.title') }}</h2> -->
       <p class="py-4 px-4">{{ $t('home.sponsor.message') }}</p>
-      <!-- TODO: List of sponsors -->
     </div>
   </main>
 </template>
@@ -41,6 +40,7 @@ export default {
   mixins: [page],
   data() {
     return {
+      curationtext: '',
       projects: []
     }
   },
@@ -49,10 +49,8 @@ export default {
     this.page.curatext = null
 
     const kten = await this.$api.getKirbyText(this.pageId, 'curatexten')
-    this.page.curatext = kten.curatexten
-
-    const projects = await this.$api.getChildren('projects')
-    this.projects = projects.filter(project => project.status === 'listed')
+    console.log(kten)
+    this.curationtext = kten.curatexten
   }
 }
 </script>
@@ -67,6 +65,15 @@ export default {
   flex-direction: column;
   height: 400px;
   width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.intro-text-divider {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid black;
 }
 
 .intro-video {
@@ -89,7 +96,7 @@ export default {
   border-bottom: 1px dashed blue;
 }
 
-.grid {
+/* .grid {
   display: grid;
   list-style: none;
   grid-gap: 1rem;
@@ -151,10 +158,10 @@ export default {
   font-size: 0.875rem;
   letter-spacing: 0.125em;
   font-weight: 600;
-}
+} */
 
 @media screen and (min-width: 45em) {
-  .grid {
+  /* .grid {
     grid-template-columns: repeat(3, 1fr);
   }
   .grid li {
@@ -163,17 +170,16 @@ export default {
   }
   .grid a {
     padding-bottom: 52.65%;
-  }
+  } */
   .curatext-box {
-  position: absolute;
-  left: 2.5rem;
-  height: 400px;
-  width: 500px;
+    position: absolute;
+    left: 2.5rem;
+    height: 400px;
+    width: 500px;
   }
   .intro-video {
-  border: 1px solid red;
-  border-radius: 8px;
+    border: 1px solid red;
+    border-radius: 8px;
   }
-
 }
 </style>
