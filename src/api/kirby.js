@@ -32,6 +32,11 @@ export default {
     return page.content
   },
 
+  async getNextPage(page) {
+    const nextPage = await get(`pages/${page}?select=next`)
+    return nextPage
+  },
+
   async getChildren(page) {
     return get(`pages/${page}/children?select=id,template,status,content`)
   },
@@ -48,7 +53,7 @@ export default {
   async getFile(path) {
     return get(`${path}?select=content`)
   },
-
+ 
   async getFileThumb(path, method, ...params) {
     params = params.map(field => field).join(',')
     return get(`${path}/thumb?method=${method}&params=${params}`)

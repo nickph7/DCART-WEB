@@ -2,8 +2,20 @@ import Vue from 'vue'
 import App from '@/App.vue'
 import Router from '@/router'
 import KirbyApi from '@/api/kirby'
+import i18n from './i18n'
+import Vuex from 'vuex'
+import VueGlobalVariable from 'vue-global-var'
+import vueVimeoPlayer from 'vue-vimeo-player'
 
 Vue.config.productionTip = false
+
+Vue.use(Vuex)
+Vue.use(VueGlobalVariable, {
+  globals: {
+    vueI18n: i18n
+  }
+})
+Vue.use(vueVimeoPlayer)
 
 // self invoke async initialization
 ;(async () => {
@@ -16,6 +28,7 @@ Vue.config.productionTip = false
 
   new Vue({
     router,
+    i18n,
     render: h => h(App)
   }).$mount('#app')
 })()

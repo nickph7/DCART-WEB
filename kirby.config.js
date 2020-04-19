@@ -4,7 +4,7 @@ const rimraf = require('rimraf')
 
 module.exports = {
   host: '127.0.0.1',
-  port: 100,
+  port: 1332,
   baseDir: 'www',
   assetsDir: 'assets',
   indexPath: 'site/snippets/vue-index.php',

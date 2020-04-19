@@ -1,5 +1,8 @@
 <template>
   <main class="album">
+    <router-link :to="'/' + nextPage">
+      Next page
+    </router-link>
     <article>
       <header>
         <figure v-if="page.cover[0]" class="album-cover">
@@ -38,7 +41,8 @@ export default {
   mixins: [page, tags],
   data() {
     return {
-      gallery: []
+      gallery: [],
+      nextPage: ''
     }
   },
   async created() {
@@ -50,6 +54,9 @@ export default {
 
     const files = await this.$api.getFiles(this.pageId)
     this.gallery = files.filter(file => file.type === 'image')
+
+    const nextPage = await this.$api.getNextPage(this.pageId)
+    this.nextPage = nextPage.next.id
   }
 }
 </script>
@@ -111,5 +118,8 @@ export default {
 }
 .album-gallery[data-count='2'] {
   grid-template-columns: 1fr 1fr;
+}
+.next-button {
+  padding: 2rem;
 }
 </style>

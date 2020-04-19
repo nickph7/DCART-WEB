@@ -6,7 +6,17 @@ module.exports = {
   indexPath: config.indexPath,
   publicPath: process.env.NODE_ENV === 'production' ? config.publicPath : '/',
   productionSourceMap: false,
+
   devServer: {
     proxy: `http://${config.host}:${config.port}`
+  },
+
+  pluginOptions: {
+    i18n: {
+      locale: 'en',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: true
+    }
   }
 }

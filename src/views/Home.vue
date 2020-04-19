@@ -1,46 +1,102 @@
 <template>
   <main>
-    <Intro :pageTitle="page.title" />
+    <!-- <Intro :pageTitle="page.title" /> -->
 
-    <ul class="grid">
-      <li v-for="album in albums" :key="album.id">
-        <router-link :to="'/' + album.id">
-          <figure>
-            <KirbyImage v-if="album.content.cover[0]" :file="album.content.cover[0]" thumb="resize" :params="[1024, 1024]" />
+    <!--Curatorial statement -->
+    <div class="about-section justify-center items-center text-justify py-10 px-10 flex flex-col md:flex-row xl:flex-row ">
+      <div class="curatext-box mb-10 md:mb-0 xl:mb-0">
+        <div class="intro-text-divider"></div>
+        <span class="py-4 px-4" v-html="curationtext"></span>
+      </div>
+      <!-- TODO: Could transfer this into its own component -->
+      <div class="intro-video py-4 px-4">
+        <vimeo-player ref="player" :video-id="407147635" />
+      </div>
+    </div>
+    <!-- Projects -->
+    <div class="project-section">
+      <Filters></Filters>
+    </div>
+    <!-- Valérie Lamontagne honor statement  -->
+    <div class="honor-statement"></div>
 
-            <figcaption>
-              <span>
-                <span class="example-name">{{ album.content.title }}</span>
-              </span>
-            </figcaption>
-          </figure>
-        </router-link>
-      </li>
-      <p>Hello kelly from my house. I have pie you should come</p>
-    </ul>
+    <!-- Sponsors -->
+    <div class="sponsor-section justify-center items-center text-justify py-10 px-10 flex flex-col md:flex-row xl:flex-row ">
+      <!-- <h2>{{ $t('home.sponsor.title') }}</h2> -->
+      <p class="py-4 px-4">{{ $t('home.sponsor.message') }}</p>
+    </div>
   </main>
 </template>
 
 <script>
 import page from '@/mixins/page'
+import Filters from '@/components/Filters.vue'
 
 export default {
+  components: {
+    Filters
+  },
   name: 'Home',
   mixins: [page],
   data() {
     return {
-      albums: []
+      curationtext: '',
+      projects: []
     }
   },
   async created() {
-    const albums = await this.$api.getChildren('photography')
-    this.albums = albums.filter(album => album.status === 'listed')
+    await this.pageLoaded
+    this.page.curatext = null
+
+    const kten = await this.$api.getKirbyText(this.pageId, 'curatexten')
+    console.log(kten)
+    this.curationtext = kten.curatexten
   }
 }
 </script>
 
 <style>
-.grid {
+.about-section {
+  height: 100vh;
+  border-bottom: 1px dashed pink;
+}
+.curatext-box {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.intro-text-divider {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+
+.intro-video {
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.project-section {
+  height: 100vh;
+  border-bottom: 1px dashed cyan;
+}
+
+.honor-statement {
+  height: 100vh;
+  border-bottom: 1px dashed green;
+}
+
+.sponsor-section {
+  height: 100vh;
+  border-bottom: 1px dashed blue;
+}
+
+/* .grid {
   display: grid;
   list-style: none;
   grid-gap: 1rem;
@@ -102,10 +158,10 @@ export default {
   font-size: 0.875rem;
   letter-spacing: 0.125em;
   font-weight: 600;
-}
+} */
 
 @media screen and (min-width: 45em) {
-  .grid {
+  /* .grid {
     grid-template-columns: repeat(3, 1fr);
   }
   .grid li {
@@ -114,6 +170,16 @@ export default {
   }
   .grid a {
     padding-bottom: 52.65%;
+  } */
+  .curatext-box {
+    position: absolute;
+    left: 2.5rem;
+    height: 400px;
+    width: 500px;
+  }
+  .intro-video {
+    border: 1px solid red;
+    border-radius: 8px;
   }
 }
 </style>

@@ -1,49 +1,42 @@
 <template>
-  <header class="header">
-    <router-link to="/" class="logo"> {{ $site.title }} </router-link>
+  <header class="header px-10 text-white">
+    <router-link to="/">
+      <div class="title-logodisplay: flex;
+  flex-direction: column;
+  align-items: center;">
+        <img src="../assets/img/final_logo8_b2.svg">
+      </div>
+    </router-link>
 
-    <nav id="menu" class="menu">
-      <router-link v-for="page in $site.children.filter(page => page.status === 'listed')" :key="page.id" :to="'/' + page.id">
-        {{ page.title }}
-      </router-link>
-    </nav>
+    <Nav></Nav>
   </header>
 </template>
 
 <script>
+import Nav from '@/components/Nav.vue'
+
 export default {
+  components: {
+    Nav
+  },
   name: 'Header'
 }
 </script>
 
 <style scoped>
 .header {
-  margin-bottom: 1.5rem;
-}
-
-.header a {
-  position: relative;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: 0.05em;
-  padding: 0.5rem 0;
-  font-weight: 700;
-}
-
-.header .logo {
-  display: block;
-  margin-bottom: 1.5rem;
-  padding: 0.5rem 0;
-}
-
-.header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  background-color: #ffffff;
+  z-index: 99;
 }
 
 .menu a {
-  margin: 0 0.75rem;
+  color: black;
 }
 
 .menu a[aria-current],
@@ -52,15 +45,9 @@ export default {
 }
 
 @media screen and (min-width: 40rem) {
-  .header .logo {
-    margin-bottom: 0;
-  }
   .header {
     flex-direction: row;
     justify-content: space-between;
-  }
-  .menu {
-    margin-right: -0.75rem;
   }
 }
 </style>

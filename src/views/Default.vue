@@ -1,7 +1,8 @@
 <template>
+  <!-- Fall back page -->
   <main>
     <Intro :pageTitle="page.title" />
-
+    <p>This is the default template</p>
     <div class="text"><span v-html="page.text"></span></div>
   </main>
 </template>

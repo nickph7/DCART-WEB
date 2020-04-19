@@ -1,0 +1,10 @@
+{
+  "demo": "Hello i18n!",
+  "home": {
+    "about": "About the exhibition",
+    "sponsor": {
+      "title": "Our sponsors",
+      "message": "Thank you to our sponsors"
+    }
+  }
+}

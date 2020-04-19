@@ -2,59 +2,51 @@
   "name": "DCART-WEB",
   "version": "1.0.0",
   "description": "Website for the Design Lab",
-  "main": "index.js",
+  "author": "Nicolas Prudhomme, David Rawalia, Markus Specogna, Wednesday, Tiyasha",
   "scripts": {
     "build": "node -e \"require('./kirby.config.js').cleanAssets()\" && vue-cli-service build --no-clean",
     "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
     "serve:backend": "node -e \"require('./kirby.config.js').serveBackend()\"",
     "serve:frontend": "vue-cli-service serve",
     "start": "run-p serve:*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/falaeco/DCART-WEB.git"
-  },
-  "keywords": [],
-  "author": "Nicolas Prudhomme, David Rawalia, Markus Specogna, Wednesday, Tiyasha",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/falaeco/DCART-WEB/issues"
-  },
-  "homepage": "https://github.com/falaeco/DCART-WEB#readme",
+  "main": "index.js",
   "dependencies": {
     "core-js": "^3.6.4",
     "node": "^13.12.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.6"
+    "vue-global-var": "^1.0.0",
+    "vue-i18n": "^8.0.0",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.3"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@kazupon/vue-i18n-loader": "^0.3.0",
     "@vue/cli-plugin-babel": "^4.2.3",
     "@vue/cli-plugin-eslint": "^4.2.3",
     "@vue/cli-plugin-router": "^4.2.3",
     "@vue/cli-service": "^4.2.3",
     "@vue/eslint-config-prettier": "^6.0.0",
+    "autoprefixer": "^9.7.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-php-server": "^0.1.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.19.1",
-    "vue-template-compiler": "^2.6.11",
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "autoprefixer": "^9.7.4",
     "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0"
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0",
+    "vue-cli-plugin-i18n": "~0.6.1",
+    "vue-template-compiler": "^2.6.11"
   },
   "babel": {
     "presets": [
       "@vue/cli-plugin-babel/preset"
     ]
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
   "eslintConfig": {
     "root": true,
     "env": {
@@ -74,5 +66,19 @@
     "semi": false,
     "singleQuote": true,
     "printWidth": 150
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/falaeco/DCART-WEB/issues"
+  },
+  "homepage": "https://github.com/falaeco/DCART-WEB#readme",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falaeco/DCART-WEB.git"
   }
 }
