@@ -28,5 +28,45 @@ Quotefr:
 
 « In.fini est une exposition qui présente le processus, la conceptualisation et la réalisation d’un ensemble de compétences diverses qui vivent au sein du département de design et d’arts numériques de l’université Concordia. »
 
+----
+
+Facultyen:
+
+The year-end show is an annual tradition in the department of Design and Computation Arts, and over the years it has reflected the prevailing cultural currents of its time. This year, the current is not so much a current as it is a tidal wave, as the pandemic of COVID-19 sweeps across the country and the world. During this time of crisis, we are heartened that we can nevertheless join together to celebrate the accomplishments of our students as we always do.
+
+As we all do our part to slow the spread of the virus by maintaining physical distance, we must also sustain our community bonds and continue to seek joy and solace in creative endeavours. We feel it is important to emphasize that this year’s exhibition is not cancelled — rather, like so many aspects of our lives these days, it has simply undergone a shift from physical to virtual: from the gallery walls to an online expo and catalogue. We wish to recognize all the students who have contributed to this year’s show, without whose ingenuity and flexibility this show would not have been possible.
+
+On behalf of the D/CART department, we would also like to congratulate the artists and designers whose work is featured in these pages. This year we showcase not only your finished works, but also your creative practices and processes. May you continue to make things that spark new insights, dialogue, and a sense of delight — we need it now more than ever.
+
+M. Wright & Kate Jarboe
+
+Faculty advisors, year-end show
+
+----
+
+Facultyquoteen:
+
+“We feel it is important to emphasize that this year’s exhibition is not cancelled — rather, like so many aspects of our lives these days, it has simply undergone a shift from physical to virtual: from the gallery walls to an online expo and catalogue.”
+
+----
+
+Facultyquotefr:
+
+« Nous croyons qu’il est important de souligner que l’exposition de 2020 n’est pas annulée — au contraire, comme tant d’aspects de notre vie quotidienne en ce moment, elle a simplement subi un passage du physique au virtuel : des murs de la galerie à une exposition et un catalogue en ligne. »
+
+----
+
+Sponsoren:
+
+
+The typefaces used were generously given to us by Pangram Pangram, a Montreal-based type foundry who are dedicated to designing for everyday use, while remaining trend-conscious. We thank them for their support and donation.
+
+----
+
+Sponsorfr:
+
+Les polices de caractères utilisées ont été généreusement données par Pangram Pangram, une typofoundrie Montréalaise qui se donne comme mission de créer pour utilisation quotidienne, tout en restant conscient des tendances.
+
+----
 
 Title: About

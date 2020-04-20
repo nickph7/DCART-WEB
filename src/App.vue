@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="custom-cursor">
+  <div id="app" class="custom-cursor overflow-x-hidden">
     <div class="page">
       <Header />
       <StreamBar />

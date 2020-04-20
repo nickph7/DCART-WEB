@@ -64,7 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-1 {
     border-width: 1px;
-    border-radius: 8px;
+    border-radius: 10px;
+}
+
+main {
+    @apply px-8 pt-4;
 }
 
 footer {

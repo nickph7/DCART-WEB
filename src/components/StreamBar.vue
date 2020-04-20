@@ -38,7 +38,7 @@ have faith have faith.
   height: 100vh;
   /* position: absolute; */
   padding-left: 2.5rem;
-  border-bottom: 1px dashed red;
+  /* border-bottom: 1px dashed red; */
   display: flex;
   justify-content: flex-start;
   align-content: center;
@@ -47,6 +47,6 @@ have faith have faith.
 }
 
 .mistvideo {
-  border-radius: 8px;
+  border-radius: 13px;
 }
 </style>
