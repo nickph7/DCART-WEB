@@ -13,7 +13,9 @@ export default {
 
 <style>
 .intro {
-  padding: 10vh 0;
+  height: 100vh;
+  border: 1px dashed black;
+  /* padding: 10vh 0; */
   text-align: center;
 }
 

@@ -1,16 +1,10 @@
 <template>
   <main>
     <Intro :pageTitle="page.title" />
-
-    <ul class="albums" :data-even="albums.length % 2 === 0">
-      <li v-for="album in albums" :key="album.id">
-        <router-link :to="'/' + album.id">
-          <figure>
-            <KirbyImage v-if="album.content.cover[0]" :file="album.content.cover[0]" thumb="crop" :params="[800, 1000]" />
-
-            <figcaption>{{ album.content.title }}</figcaption>
-          </figure>
-        </router-link>
+    <p>This is the project page</p>
+    <ul>
+      <li v-for="project in projects" :key="project.id">
+        <router-link :to="'/' + project.id">{{ project.content.title }}</router-link>
       </li>
     </ul>
   </main>
@@ -20,16 +14,16 @@
 import page from '@/mixins/page'
 
 export default {
-  name: 'Photography',
+  name: 'Projects',
   mixins: [page],
   data() {
     return {
-      albums: []
+      projects: []
     }
   },
   async created() {
-    const albums = await this.$api.getChildren(this.pageId)
-    this.albums = albums.filter(album => album.status === 'listed')
+    const projects = await this.$api.getChildren(this.pageId)
+    this.projects = projects.filter(project => project.status === 'listed')
   }
 }
 </script>
