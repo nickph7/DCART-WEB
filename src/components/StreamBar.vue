@@ -1,10 +1,12 @@
 <template>
-  <section class="StreamBar">
-    <div class="mistvideo" id="willitstream_xacigPhnKfjE">
-      <a href="https://davidrawalia.com:4433/willitstream.html" target="_blank">
+  <!-- TODO: Insert Tab here -->
+  <section class="StreamBar py-10 px-10">
+    <div class="mistvideo" id="broadcast_jTK35Fmj8giF">
+      <a href="https://streamserver.live:4433/broadcast.html" target="_blank" id="embededStream">
         Click here to play this video
       </a>
     </div>
+    <iframe src="https://streamserver.live:9000/?join=vernissage" style="border:0; width:100%; height:500px;" id="embededChat"></iframe>
   </section>
 </template>
 
@@ -13,37 +15,36 @@ export default {
   name: 'StreamBar',
   async created() {
     await this.pageLoaded
-    var a = function() {
-      mistPlay('willitstream', {
-        target: document.getElementById('willitstream_xacigPhnKfjE')
-      })
+    var streamKill = true;
+    if(streamKill){
+      document.getElementById('embededStream').remove();
+      document.getElementById('embededChat').remove();
+      console.log("The vernissage is not happening right now.")
     }
-    if (!window.mistplayers) {
-      var p = document.createElement('script')
-      p.src = 'https://davidrawalia.com:4433/player.js'
-      document.head.appendChild(p)
-      p.onload = a
-    } else {
-      a()
+    else{
+      var a = function(){
+        mistPlay("broadcast",{
+          target: document.getElementById("broadcast_jTK35Fmj8giF"),
+          forcePlayer: "html5",
+          forcePriority: {"source":[["type",["html5/video/webm"]]]}
+        });
+      };
+      if (!window.mistplayers) {
+        var p = document.createElement("script");
+        p.src = "https://streamserver.live:4433/player.js"
+        document.head.appendChild(p);
+        p.onload = a;
+      }
+      else { a(); }
     }
   }
 }
 </script>
 
 <style>
-/** its not gonna work 
-have faith have faith.
-*/
 .StreamBar {
-  height: 100vh;
-  /* position: absolute; */
-  padding-left: 2.5rem;
-  /* border-bottom: 1px dashed red; */
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  align-items: center;
-  /* z-index: 98; */
+  position: fixed;
+  z-index: 100;
 }
 
 .mistvideo {

@@ -1,25 +1,25 @@
 Cover:
 
--image_01.jpg
+- image_01.jpg
 
 ——
 
 Secondary: 
 
--image_02.jpg
--image_03.jpg
--image_04.jpg
--image_05.jpg
--image_06.jpg
--image_07.jpg
--image_08.jpg
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
 
 ----
 
 
 Artist: Élyse Parker, Imogen Blomley, Ellie Desjardins, Isaac Alberto Schmidt
 
-——
+----
 
 Contact:  @bumbino, @guppie.art, @anotherloutre, @isaac.vpn
 
@@ -27,22 +27,22 @@ Contact:  @bumbino, @guppie.art, @anotherloutre, @isaac.vpn
 
 Type of Project: Object/Clothes
 
-——
+----
 
 Program:  Design
 
-——
+----
 
 Year of Student: Third
 
-—-
+----
 
 Year Created: 2019
 
 
 Materials: Sewing, Screen printing 
 
-——
+----
 
 Description English: BIV is a line of rain ponchos made from recycled tent materials. The proceeds made from the sale of the ponchos went towards Chez Doris, an organization that helps women in need in the Montreal area. We named our project BIV, after the word bivouac, a sturdy structure used to protect someone against the elements. This paid homage to the original tents and the elements that the women of Chez Doris are regularly exposed to. The tent materials were donated by MEC. Our goal was to repurpose a material that would have been landfill and make it into something people would want to use for an extended period of time. Each poncho is one of a kind, following the preexisting shapes, seams and other details of the tents while still transforming them into a new product. Doing so allowed us to maximize the material and reduce our waste.
 
@@ -56,7 +56,7 @@ Les matériaux nous ont été donnés par MEC. Le but était de prendre des mat�
 
 
 
-——
+----
 
 Quote English:
 
@@ -69,11 +69,11 @@ Quote French:
 
 Nous avons été inspirés par les difficultés auxquelles les femmes de Chez Doris sont confrontées, notamment en ce qui concerne le fait d'être à l'extérieur et de supporter le climat rigoureux de Montréal. En travaillant ensemble avec nos compétences variées, nos ponchos ont fini par être quelque chose dont nous sommes tous fiers
 
-——
+----
 
 Tags: clothing, sewing, recycled
 
-——
+----
 
 Title: BIV
 

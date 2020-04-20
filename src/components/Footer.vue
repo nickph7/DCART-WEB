@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bg-black py-8 px-4 mt-10 sm:px-8 md:px-12 text-white">
+  <footer class="footer bg-black py-8 px-4 sm:px-8 md:px-12 text-white">
     <router-link to="/"> {{ $site.title }} </router-link>
   </footer>
 </template>

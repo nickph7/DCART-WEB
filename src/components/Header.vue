@@ -1,10 +1,8 @@
 <template>
-  <header class="header px-10 text-white">
+  <header class="header px-10 text-white fixed top-0">
     <router-link to="/">
-      <div class="title-logodisplay: flex;
-  flex-direction: column;
-  align-items: center;">
-        <img src="../assets/img/final_logo8_b2.svg">
+      <div class="title-logo flex flex-col items-center">
+        <img src="../assets/img/final_logo8_b2.svg" />
       </div>
     </router-link>
 
@@ -21,6 +19,7 @@ export default {
   },
   name: 'Header'
 }
+
 </script>
 
 <style scoped>
@@ -28,8 +27,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: fixed;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   width: 100vw;
   background-color: #ffffff;
   z-index: 99;

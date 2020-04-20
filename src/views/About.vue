@@ -1,14 +1,14 @@
 <template>
   <main>
-    <div class="about py-10 px-10 flex flex-col justify-content items-center">
+    <!-- TODO: Add icons for text boxes -->
+    <div class="about pt-10 px-10 flex flex-col justify-content items-center">
       <!-- Cruator Text -->
       <div class="title-text text-center font-display text-4xl mb-4 md:text-5xl mb-10 xl:text-5xl mb-10">
         <h1>
-          Word from <br />
-          the curation team
+          Word from the curation team
         </h1>
       </div>
-      <div class="intro-text mb-10 md:mb-0 xl:mb-0">
+      <div class="text-box mb-10 md:mb-0 xl:mb-0">
         <div class="divider"></div>
         <span class="py-4 px-4" v-html="page.text"></span>
       </div>
@@ -23,23 +23,30 @@
           the faculty advisors
         </h1>
       </div>
-      <div class="faculty-text mb-10 md:mb-0 xl:mb-0">
+      <div class="text-box mb-10 md:mb-0 xl:mb-0">
         <div class="divider"></div>
         <p class="py-4 px-4">{{ page.facultyen }}</p>
       </div>
-      <div class="faculty-quote-text font-display">
+      <div class="faculty-quote-text font-display mb-10 md:mb-0 xl:mb-0">
         <div class="divider"></div>
         <p class="py-4 px-4">{{ page.facultyquoteen }}</p>
         <!-- <span class="py-4 px-4" v-html="page.facultyquote"></span> -->
       </div>
-    </div>
-    <!-- Sponsorship and Acknowledgement section -->
-      <div class="sponsorship py-10 px-10 flex flex-col justify-content items-center mt-4 mb-4 md:mt-10 mb-10 xl:mt-10 mb-10">
-        <h1>Sponsorship</h1>
-        <!-- <p>{{ page.sponsoren }}</p> -->
-        <p>The typefaces used were generously given to us by Pangram Pangram, a Montreal-based type foundry who are dedicated to designing for everyday use, while remaining trend-conscious. We thank them for their support and donation.</p>
-        <!-- link pangram logo and link to website -->
+      <!-- Sponsor & Acknowledgement section -->
+      <div class="sponsor-section py-12 px-10 flex flex-col justify center items-center md:flex-row justify-between xl:flex-row justify-between">
+        <div class="spon-text-box mb-10 md:mb-0 xl:mb-0">
+          <div class="divider"></div> 
+          <p class="py-4 px-4">The typefaces used were generously given to us by Pangram Pangram, a Montreal-based type foundry who are dedicated to designing for everyday use, while remaining trend-conscious. We thank them for their support and donation.</p>
+          <!-- <img class="ppf-logo pb-4 px-4" src="../assets/img/Official_PPF_Logo_2018-19.svg" alt=""> -->
+          <a href="https://pangrampangram.com/"><img class="ppf-logo pb-4 px-4" src="../assets/img/Official_PPF_Logo_2018-19.svg" alt=""></a>
+        </div>
+        <!-- Acknowledgement -->
+        <div class="spon-text-box mb-10 md:mb-0 xl:mb-0">
+        <div class="divider"></div>
+        <p class="py-4 px-4">{{ page.statementen }}</p>
       </div>
+      </div>
+    </div>
   </main>
 </template>
 
@@ -77,19 +84,13 @@ export default {
 <style>
 .about {
   height: 100%;
-  border-bottom: 1px dashed cyan;
 }
-.sponsorship {
-  height:100vh;
-  background-color: #00000050;
-
+.sponsor-section {
+  height: 100%;
+  width: 100vw;
+  background-color: black;
 }
-.title-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.intro-text {
+.sponsor-text {
   font-size: 1.5vmax;
   display: flex;
   flex-direction: column;
@@ -98,13 +99,36 @@ export default {
   border-radius: 13px;
   background-color: white;
 }
-
+.ppf-logo {
+  width: 85%;
+}
+.title-text {
+  display: flex;
+  flex-direction: column;
+}
+.text-box {
+  font-size: 1.5vmax;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 13px;
+  background-color: white;
+}
+.spon-text-box {
+  font-size: 1.5vmax;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 13px;
+  background-color: white;
+}
 .divider {
   width: 100%;
   height: 30px;
   border-bottom: 1px solid black;
 }
-
 .intro-quote-text {
   display: flex;
   flex-direction: column;
@@ -112,17 +136,6 @@ export default {
   border-radius: 13px;
   background-color: white;
 }
-
-.faculty-text {
-  font-size: 1.5vmax;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 13px;
-  background-color: white;
-}
-
 .faculty-quote-text {
   display: flex;
   flex-direction: column;
@@ -140,11 +153,13 @@ export default {
     height: 30px;
     border-bottom: 1px solid black;
   }
-  .intro-text {
-    font-size: 14px;
-    /* position: absolute;
-    left: 2.5rem; */
+  .text-box {
+    font-size: 18px;
     height: 100%;
+    width: 575px;
+  }
+  .spon-text-box {
+    font-size: 18px;
     width: 575px;
   }
   .intro-quote-text {
@@ -153,13 +168,6 @@ export default {
     top: -7rem;
     height: auto;
     width: 300px;
-  }
-  .faculty-text {
-    font-size: 14px;
-    /* position: absolute;
-    left: 2.5rem; */
-    height: 100%;
-    width: 575px;
   }
   .faculty-quote-text {
     position: relative;

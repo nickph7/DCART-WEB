@@ -6,10 +6,10 @@ Cover:
 
 Secondary: 
 
--image_02.jpg
--image_03.jpg
--image_04.jpg
--image_05.jpg
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
 
 ----
 

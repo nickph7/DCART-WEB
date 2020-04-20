@@ -1,84 +1,84 @@
 Cover:
 
--image_01.jpg
+- image_01.jpg
 
-——
+----
 
 Secondary: 
 
--image_02.jpg
--image_03.jpg
--image_04.jpg
--image_05.jpg
--image_06.jpg
--image_07.jpg
--image_08.jpg
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
 
 
 
-——
+----
 
 Artist: Lou Fozin-Kengni
 
-——
+----
 
 Contact:  @lafhomme
 
-——
+----
 
 Type of Project:  Interactive, Web, Installation
 
-——
+----
 
 Link: https://vimeo.com/378883459
 
-——
+----
 
 Program:  Computation Arts
 
-——
+----
 
 Year of Student: Fourth
 
-—-
+----
 
 Year Created: 2019
 
-—-
+----
 
 Materials: Mixed media and AR
 
-——
+----
 
 Description English:
 
 Dismantling Your Electronics is an interactive Augmented Reality (AR) project which invites the public to, with their cell phones and headphones, explore the subject of minerals inside electronics. With research, analysis and interpretation, the project aims to engage with the geopolitical implications of those minerals such as cassiterite (tin). It also explores the cycles through which electronics go, from the extraction to its manufacturing, and attempts to resonate with our realities in Quebec. Soundscapes, oral storytelling, images, text, and video are elements that create the experience through AR. The physical installation is an ensemble of electronic parts, covered in fluorescent paint, that are used as markers detected by the camera of the smartphones to reveal stories.
 
 
-——
+----
 
 Description French:
 
 Dismantling Your Electronics est un projet interactive de Réalité Augmentée (RA) qui invite le public à s’intéresser, à l’aide de leur téléphone et leurs écouteurs, aux minéraux trouvés dans les appareils électroniques. En combinant recherche, analyse et interprétation, cette oeuvre a comme but de se rapprocher du sujet des implications géopolitiques liées aux minéraux tel que le cassitérite (étain). Le projet touche aussi aux cycles à travers lesquels l’électronique passe, de l’extraction à sa fabrication, et tente de les faire résonner avec nos réalités au Québec. L’environnement sonore, des histoires orales, des images, du texte et de la vidéo sont ce qui crée l’expérience de RA. L’installation physique consiste d’un ensemble de pièces électroniques, couvertes de peinture fluorescente, utilisées comme marqueurs détectables par la caméra des téléphones intelligents et qui révèlent des histoires.
 
-——
+----
 
 Quote English:
 
 The markers used for the AR experience are now able to reveal animations one after the other using a timeline.
 
-——
+----
 
 
 Quote French:
 
 Les marqueurs utilisés pour l'expérience de RA sont maintenant capables de révéler des animations l'une après l'autre en utilisant une ligne de temps.
 
-——
+----
 
 Tags: mixed media, AR
 
-——
+----
 
-Title:  Dismantling Your Electronics
+Title: Dismantling Your Electronics
 

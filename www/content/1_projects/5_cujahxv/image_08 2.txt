@@ -1,6 +1,0 @@
-
-Column Width: 3
-
-----
-
-Content Type: portrait

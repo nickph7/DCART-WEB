@@ -2,9 +2,9 @@
   <main>
     <!-- <Intro :pageTitle="page.title" /> -->
     <div class="issuu py-10 px-10">
-      <iframe 
+      <iframe
         allowfullscreen allow="fullscreen" 
-        style="border:none;width:100%;height:800px;" 
+        style="border:none;width:100%;height:800px;"
         src="//e.issuu.com/embed.html?backgroundColor=%23d1d3d4&backgroundColorFullscreen=%23d1d34&d=infinite_catalogue&hideIssuuLogo=true&hideShareButton=true&showOtherPublicationsAsSuggestions=true&u=in.finite">
       </iframe>
     </div>

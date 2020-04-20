@@ -4,7 +4,6 @@
     <VueGallery :images="images" :index="index" @close="index = null"></VueGallery>
     <div :class="'grid grid-cols-' + size + ' gap-' + gap">
       <div
-        class="image"
         v-for="(image, imageIndex) in images"
         :key="imageIndex"
         @click="index = imageIndex"
@@ -30,6 +29,10 @@ export default {
     gap: {
       type: Number,
       default: 4
+    },
+    slicefirst: {
+      type: Boolean,
+      default: false
     }
   },
   data() {

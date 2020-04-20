@@ -2,7 +2,7 @@ Cover:
 
 -image_01.jpg
 
-——
+----
 
 Secondary: 
 
@@ -10,66 +10,66 @@ Secondary:
 -image_03.jpg
 
 
-——
+----
 
 Artist: Taylor Reddam-Woo
 
-——
+----
 
 Contact:  taylorreddam@gmail.com 
 
-——
+----
 
 Type of Project:  Print
 
-——
+----
 
 Program:  Design
 
-——
+----
 
 Year of Student: Second
 
-—-
+----
 
 Year Created: 2019
 
-—-
+----
 
 Materials:  Paper & thread
 
-——
+----
 
 Description English:
 
 This series of books explores two dualities that exist in typography, coming from very different perspectives. The project aims to unify these contrasting voices in a cohesive manner so that they can stand together as a series or separately on their own. The concept was to choose an essay that strayed far away from Beatrice Warde's Crystal Goblet in order to emphasize the vast range of explorations in typography that exists today. Out of personal interest, I chose an essay that explores the roots of graffiti and how it has inspired contemporary graphic designers. 
 
 
-——
+----
 
 Description French:
 
 Cette série de livres explore deux dualités qui existent dans la typographie, provenant de perspectives très différentes. Le projet vise à unifier ces voix contrastées de manière cohérente afin qu'elles puissent se tenir ensemble en tant que série ou séparément. Le concept était de choisir un essai qui s'éloignait de “Crystal Goblet” de Beatrice Warde afin de mettre en valeur la vaste gamme d'explorations en typographie qui existent aujourd'hui. Par intérêt personnel, j'ai choisi un essai qui explore les racines du graffiti et la façon dont il a inspiré les graphistes contemporains.
 
-——
+----
 
 Quote English:
 
 I truly believe that the process is such a critical part of visual communication that is often overlooked.
 
 
-——
+----
 
 
 Quote French:
 
 Je crois sincèrement que le processus est un élément essentiel de la communication visuelle qui est souvent négligé.
 
-——
+----
 
 Tags: Print
 
-——
+----
 
 Title:  Duality
 
