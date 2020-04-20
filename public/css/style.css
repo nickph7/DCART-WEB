@@ -313,7 +313,8 @@ a {
 
 img,
 svg,
-video {
+video,
+iframe {
   display: block;
   vertical-align: middle;
 }
