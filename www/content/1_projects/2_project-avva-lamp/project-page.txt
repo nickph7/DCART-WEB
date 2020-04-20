@@ -2,7 +2,7 @@ Cover:
 
 -image_01.jpg
 
-——
+----
 
 Secondary: 
 
@@ -16,7 +16,7 @@ Secondary:
 
 Artist: Mélissa Muggeo
 
-——
+----
 
 Contact: mel.mm@icloud.com
 
@@ -24,29 +24,30 @@ Contact: mel.mm@icloud.com
 
 Type of Project: Object
 
-——
+----
 
 Program:  Design
 
-——
+----
 
 Year of Student: Third
 
-—-
+----
 
 Year Created: 2019
 
+----
 
 Materials: recycled birch wood, metal, zinc, magnets, aluminum, recycled acrylic 
 
-——
+----
 
-Description English: AVVA Lamp have a sculptural aspect by the modular mechanism which allows you to navigate each piece in different positions and create abstract sculptural compositions. you create its shape, and meanings through your emotions and needs. A lamp you interact with. Designed for disassembly.
+Description_english: AVVA Lamp have a sculptural aspect by the modular mechanism which allows you to navigate each piece in different positions and create abstract sculptural compositions. you create its shape, and meanings through your emotions and needs. A lamp you interact with. Designed for disassembly.
 
 
 ----
 
-Description French:
+Description_french:
 
 La lampe AVVA a un aspect sculptural grâce au mécanisme modulaire qui vous permet de naviguer chaque pièce dans différentes positions et de créer des compositions sculpturales abstraites. Vous créez sa forme et ses significations à travers vos émotions et vos besoins. Une lampe avec laquelle vous interagissez. Conçu pour le démontage. 
 

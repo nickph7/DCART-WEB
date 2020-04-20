@@ -42,11 +42,11 @@ Materials: Papers, risograph, printing
 
 ----
 
-Description English: This booklet serves to gain knowledge about the notion of Antispeciesism. It serves as an educational tool and to spread awareness about how we treat our surroundings, more specifically the nonhuman animals. Antispeciesism is produced in an edition of 10 copies, including a double-sided poster. It is part of the 25 Memos series for the next decade.
+Description_english: This booklet serves to gain knowledge about the notion of Antispeciesism. It serves as an educational tool and to spread awareness about how we treat our surroundings, more specifically the nonhuman animals. Antispeciesism is produced in an edition of 10 copies, including a double-sided poster. It is part of the 25 Memos series for the next decade.
 
 ----
 
-Description French:
+Description_french:
 
 Cette brochure sert à diffuser des connaissances sur la notion du Antispécisme. Il sert d'outil éducatif et de sensibilisation sur la façon dont nous traitons notre environnement, plus spécifiquement les animaux nonhumains. Antispeciesism est réalisé dans une édition de 10 exemplaires, incluant une affiche recto-verso. Il fait partie de la série de 25 brochures Mémos pour la prochaine décennie.
 
