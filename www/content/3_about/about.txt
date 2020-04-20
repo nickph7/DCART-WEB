@@ -1,52 +1,32 @@
 Texten:
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+The year-end show is an exciting opportunity to exhibit students' work, and this year COVID-19 prompted a unique challenge to finding an alternate platform to showcase the talent of Concordia's Design and Computation Arts students. Together, the organizers of in.finite have created a digital home for this incredible collection of artworks and experiences, that can be appreciated from anywhere. While we can’t replace the camaraderie of a physical exhibition, discovering the works virtually is a way to support and learn from a wide range of artists and designers, during a time when we could all use a little more connection.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+In.finite is an exhibition that showcases the process, conception, and realization of a diverse skill set that lives within the Department of Design and Computation Arts of Concordia University. In.finite is a place where Design and Computation Arts come together to put forward their strongest work while revealing steps that are typically hidden—through exposing key moments of the creative process in the physical and virtual world.
+
+This collection of work invites the creators and viewers to question what defines a finished work, and whether or not a project is ever truly finished. Unique in their own way, each work relates to this overarching question, and initiates a discourse surrounding the limitations placed on projects and the extent to which they can evolve in order to keep up with their surroundings. In.finite is a [virtual] exhibition that asks us to reimagine and iterate upon existing works, concepts, and ideas, as well as the roles designers and artists have in influencing what is to come.
 
 ----
 
 Textfr:
 
-Potatoes gon' potate
+L'exposition de fin d'année est une opportunité unique pour partager les projets des étudiants. Cette année, COVID-19 pose un défi de taille: trouver une autre plateforme pour présenter le talent des étudiants en design et en art numérique de Concordia. Tous ensemble, les organisateurs d'in.finite ont créé une vitrine virtuelle pour cette collection d'œuvres d'art et d'expériences, qui peut être appréciée de n'importe où. Bien que nous ne puissions pas remplacer la convivialité d'une exposition physique, exposer les œuvres de manière virtuelle est une façon de découvrir et d'apprécier un large éventail d'artistes et de designers, dans un temps où nous avons tous besoin d'un peu plus de contact.
+
+In.finite est une exposition qui présente le processus, la conceptualisation et la réalisation d'un ensemble de compétences diverses qui vivent au sein du département de design et d'arts informatiques de l'université Concordia. In.finite est un lieu où le design et les arts informatiques se réunissent pour mettre en avant leurs travaux les plus forts tout en révélant des étapes qui sont généralement méconnues - en exposant les moments clés du processus créatif dans le monde physique et virtuel.
+
+Cette collection d'œuvres invite les créateurs et les spectateurs à s'interroger sur ce qui définit une œuvre achevée, et sur le fait qu'un projet soit ou non jamais vraiment terminé. Chaque œuvre, unique à sa manière, est liée à cette question globale et initie un dialogue sur les contraintes imposées aux projets et sur la mesure dans laquelle ils peuvent évoluer avec leur environnement. In.finite est une exposition [virtuelle] qui nous invite à repenser et à répéter des œuvres, des concepts et des idées existants, ainsi que le rôle des designers et des artistes dans la création de ce qui est à venir.
 
 ----
 
-Address:
+Quoteen:
 
-Mægazine Inc.
-Sesamestreet 1
-Gotham City
-USA
+“In.finite is an exhibition that showcases the process, conception, and realization of a diverse skill set that lives within the Department of Design and Computation Arts of Concordia University.”
 
 ----
 
-Email: mail@maegazine.com
+Quotefr: 
 
-----
+« In.fini est une exposition qui présente le processus, la conceptualisation et la réalisation d’un ensemble de compétences diverses qui vivent au sein du département de design et d’arts numériques de l’université Concordia. »
 
-Phone: +49 1234 5678
 
-----
-
-Social:
-
--
-  platform: Twitter
-  url: https://twitter.com/getkirby
--
-  platform: Instagram
-  url: https://instagram.com/getkirby
-
-----
-
-Contact:
-
-Kirby Magazine Inc.
-Sesamestreet 1
-Gotham City
-USA
-
-----
-
-Title: About us
+Title: About

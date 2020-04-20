@@ -1,0 +1,8 @@
+title: Projectpage
+
+fields:
+  cover:
+    type: files
+    multiple: false
+  secondary:
+    type: files

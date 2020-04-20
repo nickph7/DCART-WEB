@@ -127,9 +127,9 @@ dist
 *.sw?
 
 # built files - Removed from testing purposes
-#www/assets
-#www/site/snippets/vue-index.php
-#www/favicon.ico
+www/assets
+www/site/snippets/vue-index.php
+www/favicon.ico
 
 # local env files - Want to keep the same read-only API between accounts
 .env.local

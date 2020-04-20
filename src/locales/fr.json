@@ -1,3 +1,10 @@
 {
-    "message": "Bonjour i18n!"
+    "demo": "Bonjour i18n!",
+    "home": {
+        "about": "À propos de l'exposition",
+        "sponsor": {
+            "title": "Nos partenaires",
+            "message": "Merci à nos partenaires"
+        }
+    }
 }
