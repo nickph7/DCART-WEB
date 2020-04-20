@@ -7,9 +7,11 @@
     <!-- <link rel="stylesheet" href="css/font.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/logo.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/anime.min.js"></script>
     <script src="https://kit.fontawesome.com/d7da34aca9.js" crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="js/logo.js"></script>
 </head>
 
 <!-- Custom Cursor -->
@@ -18,13 +20,41 @@
     <main>
 
         <div class="hero h-screen mr-0 mb-4">
-
-            <!-- Logo Animation -->
+            <!-- Hero Graphics  -->
+            <div class="container mx-auto relative">
+                <!-- Animated logo  -->
+                <div id="logo-container" class="opacity-0">
+                    <div class="logo absolute w-full h-3/5-screen overflow-hidden">
+                        <img src="img/logo1-back.svg" id="logo-back" alt="in.finite logo back" class="logo-back absolute z-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <img src="img/logo1-front.svg" id="logo-front" class="logo-front absolute z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    </div>
+                </div>
+                <!-- Intro video  -->
+                <div id="vid-container">
+                    <div class="video top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <video id="intro-player" class="video-js z-20" autoplay>
+                        <source src="img/infinite_promo_video.mp4" type="video/mp4" alt="in.finite video intro">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <!-- Logo Animation  
             <div class="container mx-auto">
-                <div class="relative w-full h-3/5-screen overflow-hidden">
+                <div class="relative w-full h-3/5-screen overflow-hidden absolute">
                     <img src="img/logo1-back.svg" id="logo-back" class="logo-back absolute z-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="in.finite logo back">
                     <img src="img/logo1-front.svg" id="logo-front" class="logo-front absolute z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="in.finite logo top">
+
+                    
+                    <div class="container mx-auto vid-container">
+                        <div class="relative w-full overflow-hidden transform z-20 absolute">
+                            <video id="intro-player" class="video-js left-1/2 top-1/2" autoplay>
+                            <source src="img/infinite_promo_video.mp4" type="video/mp4" alt="in.finite video intro">
+                            </video>
+                        </div>
+                    </div>                    
                 </div>
+            </div> -->
+        
 
 
                 <!-- Launch Countdown -->

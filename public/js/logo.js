@@ -16,7 +16,22 @@ function animate(){
   logoFront = document.getElementById("logo-front");
   logo.src = "img/logo" + imgNum + "-back.svg";
   logoFront.src = "img/logo" + imgNum + "-front.svg";
-  console.log(imgNum);
+  // wait until video is done playing and fade it to transparent
+  anime({
+    targets: '#vid-container',
+    delay: 30000,
+    duration: 2000,
+    easing: 'linear',
+    opacity: 0
+  });
+  anime({
+    targets: '#logo-container',
+    opacity: [
+      {value: 0, duration: 0, delay: 0},
+      {value: 100, duration: 3000, delay: 32000},
+    ],
+    easing: 'linear',
+  });
   // listen for mouse movement and get cursor location
   if (window.Event) {
     //deprecate function here

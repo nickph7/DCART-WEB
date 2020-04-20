@@ -83,3 +83,7 @@ footer {
 
 
 @tailwind utilities;
+
+.-translate-y-2\/3 {
+    --transform-translate-y: -66%;
+}
