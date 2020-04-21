@@ -1,29 +1,65 @@
 <template>
-  <div>
+  <div class="flex flex-col justify-around items-center md:flex-row md:justify-around md:items-start mx-auto">
     <!-- portraits -->
-    <div :class="'grid grid-cols-'+numCols+' grid-rows-'+numRows+' grid-flow-row gap-2 w-md'">
-      <figure v-for="(image, index) in imageFiles" :key="index">
-        <img :src="image" alt="">
+    <div :class="'grid grid-cols-'+numRows+' grid-rows-'+numCols+' grid-flow-row md:grid-cols-'+numCols+' md:grid-rows-'+numRows+' gap-2 w-lg mb-8 md:mb-0 md:w-md md:mr-8'">
+      <figure class="rounded-theme" v-for="(image, index) in imageFiles" :key="index">
+        <img :src="image" alt="" class="rounded-theme">
       </figure>
     </div>   
     <!-- text - add border around text -->
-        <!-- Border -->
-          <!-- <div class="divider flex pt-1">
-                <span class="px-1"> <img src="../assets/img/element_dot-02.svg" alt=""> </span>
-                <span class="px-1"> <img src="../assets/img/element_min-02-02.svg" alt=""> </span>
-                <span class="px-1"> <img src="../assets/img/element_plus-02.svg" alt=""> </span>
-          </div> -->
+    <TextWindow class="artist-window w-full md:w-7/10">
+      <p class="font-display pb-2">Artists</p>
+      <input 
+        id="artistInput"
+        class="rounded-theme border border-solid border-black px-4 py-2 leading-tight w-full" 
+        type="text" 
+        :value="artistNames"
+        @focusout="resetValues('artistInput', artistNames)">
+      <p class="font-display py-2">Program</p>
+      <input 
+        id="programInput"
+        class="rounded-theme border border-solid border-black px-4 py-2 leading-tight w-full" 
+        type="text" 
+        :value="program"
+        @focusout="resetValues('programInput', program)">
+      <p class="font-display py-2">Year</p>
+      <input 
+        id="yearInput"
+        class="rounded-theme border border-solid border-black px-4 py-2 leading-tight w-full" 
+        type="text" 
+        :value="year"
+        @focusout="resetValues('yearInput', year)">
+      <p class="font-display py-2">Quote</p>
+      <textarea 
+        id="quoteInput"
+        class="rounded-theme border border-solid border-black px-4 py-2 leading-tight w-full" 
+        type="text" 
+        :value="quote"
+        @focusout="resetValues('quoteInput', quote)"></textarea>
+    </TextWindow>
   </div>
 </template>
 
 <script>
+/**
+ * - Artists Name
+ * - Program / Year of student
+ * - Quote english and french
+ * - Contact
+ */
+
+import TextWindow from '@/components/TextWindow.vue'
+
 export default {
+  components: {
+    TextWindow
+  },
   name: 'ArtistSection',
   data() {
     return {
       dummyImage: [
         'chi', 'foo', 'mi'
-      ]
+      ],
     }
   },
   props: {
@@ -40,10 +76,26 @@ export default {
       }
     },
     artistNames: {
-      type: Array,
-      default() {
-        return ['Sideshow Bob', 'Montgomery Burns', 'Lisa Simpson', 'Milhouse Van Houten', 'Matt Groening']
-      }
+      type: String,
+      default: 'Sideshow Bob, Montgomery Burns, Lisa Simpson, Milhouse Van Houten, Matt Groening'
+    },
+    program: {
+      type: String,
+      default: 'Biology'
+    },
+    year: {
+      type: String,
+      default: 'Fifth'
+    },
+    quote: {
+      type: String,
+      default: "Shia Laboeuf says that you should just do it and I related to that \n Shia laboeuf a dit que je devrais juste le faire et je pense que c'est vrai"
+    }
+  },
+  methods: {
+    resetValues(id, values) {
+      let inputTest = document.getElementById(id)
+      inputTest.value = values
     }
   },
   computed: {
@@ -54,11 +106,12 @@ export default {
     },
     numCols: function(){
       let cols = this.imageFiles.length > 1 ? 2 : 1
-      console.log(cols)
+      //console.log(cols)
       return cols
     }
   }
 }
+
 /**
 
  *    [1] [2] 
@@ -69,12 +122,4 @@ export default {
 </script>
 
 <style>
-/* .divider {
-  width: 100%;
-  height: 30px;
-  border-bottom: 1px solid black;
-} */
-
-@media screen and (min-width: 45rem) {
-}
 </style>

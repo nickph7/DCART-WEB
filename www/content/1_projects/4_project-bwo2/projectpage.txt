@@ -2,7 +2,7 @@ Cover:
 
 - image_01.jpg
 
-——
+----
 
 Secondary: 
 
@@ -21,7 +21,7 @@ Secondary:
 
 Artist: Laura Toma
 
-——
+----
 
 Contact:  @___loie
 
@@ -29,22 +29,23 @@ Contact:  @___loie
 
 Type of Project: Object
 
-——
+----
 
-Program:  Design
+Program: Design
 
-——
+----
 
 Year of Student: Fourth
 
-—-
+----
 
 Year Created: 2019
 
+----
 
 Materials: Steel and baltic birch 
 
-——
+----
 
 Description English: BwO² is the sequel to sculpture BwO (or Body without Organs), exhibited in last year's D/CART Year End Show. Inspired by the Memphis design movement, it aims to elicit contemplation and inspire people to question complacency in their use of everyday objects. A chair being implicitly anthropomorphic (having arms, legs, feet, a back, etc.), the form was conceived from an image of the artist’s dancing body. It represents a still and transitory moment; a point in the larger context of time and space. A piece of sculptural furniture, BwO² poetically returns to an aesthetic of artisanship and decoration of form.
 
@@ -57,7 +58,7 @@ BwO² est la suite de la sculpture BwO (ou Corps sans organes), exposée l'anné
 
 
 
-——
+----
 
 Quote English:
 
@@ -70,11 +71,11 @@ Quote French:
 
 Le processus créatif est le lieu de rencontre entre l'imagination et la réalité, où l'esprit conscient est à la fois tourmenté et humilié.
 
-——
+----
 
 Tags: object, furniture
 
-——
+----
 
 Title: BwO²
 

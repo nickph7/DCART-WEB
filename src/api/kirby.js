@@ -53,6 +53,10 @@ export default {
   async getFile(path) {
     return get(`${path}?select=content`)
   },
+
+  async getFileFromPage(file, page){
+    return get(`pages/${page}/files/${file}?select=content,url,link,type,name`)
+  },
  
   async getFileThumb(path, method, ...params) {
     params = params.map(field => field).join(',')

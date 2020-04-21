@@ -19,7 +19,10 @@
     </div>
     <!--Curatorial statement/About section -->
     <div class="about-section my-10 py-20 flex flex-col relative">
-      <TextWindow :content="curationtext" class="curatext-english max-w-none md:max-w-lg relative md:absolute z-10"></TextWindow>
+      <!-- <TextWindow :content="curationtext" class="curatext-english max-w-none md:max-w-lg relative md:absolute z-10"></TextWindow> -->
+      <TextWindow class="curatext-english max-w-none md:max-w-lg relative md:absolute z-10">
+        {{ curationtext }}
+      </TextWindow>
       <vimeo-player
         ref="player"
         video-id="400743103"
@@ -27,7 +30,10 @@
         class="curatext-video w-screen md:mx-auto my-2 md:w-11/12 lg:w-10/12 relative md:absolute z-0"
       />
       <span class="humongous-text font-display text-gray-900 absolute">IN.FINITE</span>
-      <TextWindow :content="curationtext_french" class="curatext-french max-w-none md:max-w-xl italic relative md:absolute z-10"></TextWindow>
+      <!-- <TextWindow :content="curationtext_french" class="curatext-french max-w-none md:max-w-xl italic relative md:absolute z-10"></TextWindow> -->
+      <TextWindow class="curatext-french max-w-none md:max-w-xl italic relative md:absolute z-10">
+        {{ curationtext_french }}
+      </TextWindow>
     </div>
     <!-- Projects -->
     <div class="project-section">
@@ -36,7 +42,20 @@
     <!-- Valérie Lamontagne honor statement  -->
     <div class="honor-statement py-10">
       <img class="rounded-theme mx-auto w-9/12 lg:w-8/12 max-w-3xl object-contain" src="../assets/img/valerie_lamontagne_portrait.jpg" alt="" />
-      <TextWindow :content="valerie"  class="w-9/12 md:max-w-lg mx-auto"></TextWindow>
+      <!-- <TextWindow :content="valerie"  class="w-9/12 md:max-w-lg mx-auto"></TextWindow> -->
+      <TextWindow class="w-9/12 md:max-w-lg mx-auto">
+        <p>
+          This exhibition is dedicated to the memory <br> of 
+          Valérie Lamontagne (1968–2019).</p>
+          <p class="mt-2 italic">Cette exposition est dédiée à la mémoire <br> de Valérie Lamontagne (1968–2019).</p>
+          <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p>
+        <div class="flex flex-row honor-link">
+          <a 
+          href="http://www.concordia.ca/cunews/finearts/design/2019/10/28/valerie-lamontagne-1968-2019.html"
+          target="_blank"
+          > > Valerie Lamontagne Scholarship Fund</a>
+        </div>
+      </TextWindow>
     </div>
   </main>
 </template>
@@ -70,17 +89,6 @@ export default {
         responsive: true,
         color: 'f7f7f7'
       },
-      valerie: `<p>
-          This exhibition is dedicated to the memory <br> of 
-          Valérie Lamontagne (1968–2019).</p>
-          <p class="mt-2 italic">Cette exposition est dédiée à la mémoire <br> de Valérie Lamontagne (1968–2019).</p>
-          <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p>
-        <div class="flex flex-row honor-link">
-          <a 
-          href="http://www.concordia.ca/cunews/finearts/design/2019/10/28/valerie-lamontagne-1968-2019.html"
-          target="_blank"
-          > > Valerie Lamontagne Scholarship Fund</a>
-        </div>`
     }
   },
   async created() {

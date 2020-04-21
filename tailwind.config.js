@@ -4,7 +4,8 @@ module.exports = {
       width: {
         'sm': '150px',
         'md': '250px',
-        'lg': '350px'
+        'lg': '350px',
+        '7/10': '70%'
       },
       height: {
         '2/5-screen': '40vh',
@@ -15,14 +16,14 @@ module.exports = {
         'lg': '350px',
         'about': '800px'
       },
+      fontSize: {
+        'huge': '15rem',
+        'very-big': '10rem'
+      }
     },
     fontFamily: {
       display: ['Supply', 'Consolas', 'monospace'],
       body: ['"Object Sans"', '"Avenir Next"', 'Avenir', '"Century Gothic"', 'Helvetica', 'Arial', 'sans-serif']
-    },
-    fontSize: {
-      'huge': '15rem',
-      'very-big': '10rem'
     },
     inset: {
       '1/2': '50%'
