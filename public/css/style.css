@@ -543,8 +543,17 @@ footer {
   opacity: 0;
 }
 
+.opacity-100 {
+  opacity: 1;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-4 {
@@ -608,10 +617,6 @@ footer {
 
 .z-10 {
   z-index: 10;
-}
-
-.z-20 {
-  z-index: 20;
 }
 
 .transform {
