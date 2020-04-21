@@ -28,12 +28,12 @@ export default {
   },
 
   async getPage(id) {
-    const page = await get(`pages/${id}?select=content`)
+    const page = await get(`pages/${id}?select=content,next,prev`)
     return page.content
   },
 
   async getNextPage(page) {
-    const nextPage = await get(`pages/${page}?select=next`)
+    const nextPage = await get(`pages/${page}?select=prev,next`)
     return nextPage
   },
 

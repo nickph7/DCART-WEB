@@ -5,9 +5,9 @@
         {{ page.title }}
       </router-link>
       <!-- @click: to change -->
-      <button id="active">EN</button>
+      <!-- <button id="active">EN</button>
       |
-      <button>FR</button>
+      <button>FR</button> -->
     </nav>
   </div>
 </template>

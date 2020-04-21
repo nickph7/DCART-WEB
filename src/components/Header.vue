@@ -1,11 +1,8 @@
 <template>
-  <header class="header px-10 text-white fixed top-0">
+  <header class="px-10 flex flex-col items-center w-screen z-50 md:flex-row md:justify-between">
     <router-link to="/">
-      <div class="title-logo flex flex-col items-center">
-        <img src="../assets/img/final_logo8_b2.svg" />
-      </div>
+      <img src="../assets/img/final_logo8_b2.svg" id="logo-back" class=""/>
     </router-link>
-
     <Nav></Nav>
   </header>
 </template>
@@ -17,17 +14,23 @@ export default {
   components: {
     Nav
   },
-  name: 'Header'
+  name: 'Header',
+  data() {
+    return {
+      logoBack: 0,
+      logoFront: 0
+    }
+  }
 }
 
 </script>
 
-<style scoped>
-.header {
+<style>
+/* .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border-bottom: 1px solid black; */
+  border-bottom: 1px solid black;
   width: 100vw;
   background-color: #ffffff;
   z-index: 99;
@@ -47,5 +50,7 @@ export default {
     flex-direction: row;
     justify-content: space-between;
   }
-}
+} 
+*/
+
 </style>

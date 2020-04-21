@@ -1,12 +1,14 @@
 <template>
   <main>
-    <Intro :pageTitle="page.title" />
-    <p>This is the project page</p>
+    <!-- <Intro :pageTitle="page.title" /> -->
+    <div class="project-directory flex flex-col">
+    <p>This is the project page</p> 
     <ul>
-      <li v-for="project in projects" :key="project.id">
+      <li class="project-thumb py-10" v-for="project in projects" :key="project.id">
         <router-link :to="'/' + project.id">{{ project.content.title }}</router-link>
       </li>
     </ul>
+    </div>
   </main>
 </template>
 
@@ -29,6 +31,9 @@ export default {
 </script>
 
 <style>
+.project-directory { 
+  height: 100vh;
+}
 .albums {
   display: grid;
   list-style: none;

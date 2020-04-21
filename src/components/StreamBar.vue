@@ -1,25 +1,42 @@
 <template>
   <!-- TODO: Insert Tab here -->
-  <section class="StreamBar py-10 px-10">
-    <div class="mistvideo" id="broadcast_jTK35Fmj8giF">
-      <a href="https://streamserver.live:4433/broadcast.html" target="_blank" id="embededStream">
-        Click here to play this video
-      </a>
-    </div>
-    <iframe src="https://streamserver.live:9000/?join=vernissage" style="border:0; width:100%; height:500px;" id="embededChat"></iframe>
-  </section>
+  <div>
+    <button class="btn uppercase fixed mx-10 z-50 transform rotate-90" @click="toggleStream">{{ buttonMessage }}</button>
+    <section v-show="!isHidden" class="StreamBar py-10 px-10">
+      <div class="mistvideo" id="broadcast_jTK35Fmj8giF">
+        <a href="https://streamserver.live:4433/broadcast.html" target="_blank" id="embededStream">
+          Click here to play this video
+        </a>
+      </div>
+      <iframe src="https://streamserver.live:9000/?join=vernissage" style="border:0; width:100%; height:500px;" id="embededChat"></iframe>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'StreamBar',
+  data() {
+    return{
+      isHidden: true
+    }
+  },
+  methods: {
+    toggleStream() {
+      this.isHidden = !this.isHidden
+    }
+  },
+  computed: {
+    buttonMessage: function(){
+      return this.isHidden ? 'open' : 'close' 
+    }
+  },
   async created() {
     await this.pageLoaded
-    var streamKill = true;
+    var streamKill = false;   //change to false to make stream appear!
     if(streamKill){
       document.getElementById('embededStream').remove();
       document.getElementById('embededChat').remove();
-      console.log("The vernissage is not happening right now.")
     }
     else{
       var a = function(){
@@ -41,10 +58,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.btn {
+  left: -4rem;
+}
+
 .StreamBar {
   position: fixed;
-  z-index: 100;
+  z-index: 49;
 }
 
 .mistvideo {

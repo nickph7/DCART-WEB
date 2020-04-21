@@ -2,7 +2,7 @@ Cover:
 
 - image_01.jpg
 
-——
+----
 
 Secondary: 
 
@@ -12,6 +12,11 @@ Secondary:
 - image_05.jpg
 - image_06.jpg
 - image_07.jpg
+
+----
+
+Headshot:
+
 - image_08.jpg
 
 ----
@@ -39,6 +44,7 @@ Year of Student: Third
 
 Year Created: 2019
 
+----
 
 Materials: Sewing, Screen printing 
 
