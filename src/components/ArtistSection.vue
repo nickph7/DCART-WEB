@@ -3,7 +3,7 @@
     <!-- portraits -->
     <div :class="'grid grid-cols-'+numRows+' grid-rows-'+numCols+' grid-flow-row md:grid-cols-'+numCols+' md:grid-rows-'+numRows+' gap-2 w-lg mb-8 md:mb-0 md:w-md md:mr-8'">
       <figure class="rounded-theme" v-for="(image, index) in imageFiles" :key="index">
-        <img :src="image" alt="" class="rounded-theme">
+        <KirbyImage :file="image" thumb="crop" :params="[200]" class="rounded-theme object-cover" style="width: 200; height: 100%;"/>
       </figure>
     </div>   
     <!-- text - add border around text -->
@@ -30,12 +30,10 @@
         :value="year"
         @focusout="resetValues('yearInput', year)">
       <p class="font-display py-2">Quote</p>
-      <textarea 
-        id="quoteInput"
-        class="rounded-theme border border-solid border-black px-4 py-2 leading-tight w-full" 
-        type="text" 
-        :value="quote"
-        @focusout="resetValues('quoteInput', quote)"></textarea>
+      <div class="rounded-theme border border-solid border-black px-4 py-2 leading-tight w-full cursor-text">
+        <p class="mb-4">{{ quote_english }}</p>
+        <p class="italic">{{ quote_french }}</p>
+      </div>
     </TextWindow>
   </div>
 </template>
@@ -49,10 +47,11 @@
  */
 
 import TextWindow from '@/components/TextWindow.vue'
+import KirbyImage from '@/components/KirbyImage.vue'
 
 export default {
   components: {
-    TextWindow
+    TextWindow, KirbyImage
   },
   name: 'ArtistSection',
   data() {
@@ -87,9 +86,13 @@ export default {
       type: String,
       default: 'Fifth'
     },
-    quote: {
+    quote_english: {
       type: String,
-      default: "Shia Laboeuf says that you should just do it and I related to that \n Shia laboeuf a dit que je devrais juste le faire et je pense que c'est vrai"
+      default: "Shia Laboeuf says that you should just do it and I related to that"
+    },
+    quote_french: {
+      type: String,
+      default: "Shia laboeuf a dit que je devrais juste le faire et je pense que c'est vrai"
     }
   },
   methods: {

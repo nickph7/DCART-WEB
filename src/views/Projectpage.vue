@@ -9,8 +9,9 @@
     </div>
 
     <!-- text -->
-    <div class="mb-8">
-      <p>{{ description }}</p>
+    <div class="flex flex-col sm:flex-row mb-8 mx-auto">
+      <p class="flex-1 mb-8 sm:mr-3 md:mr-6 max-w-xl">{{ description_english }}</p>
+      <p class="flex-1 italic sm:ml-3 md:ml-6 max-w-xl">{{ description_french }}</p>
     </div>
 
     <!-- gallery -->
@@ -24,17 +25,24 @@
     </div>
 
     <!-- artist section -->
-    <ArtistSection class="mt-8"></ArtistSection>
+    <ArtistSection
+      :imageFiles="artistsHeadshots"
+      :artistNames="artist.artistNames"
+      :program="artist.program"
+      :year="artist.year"
+      :quote_english="artist.quote_english"
+      :quote_french="artist.quote_french"
+      class="mt-8"></ArtistSection>
 
     <!-- Previous/Next Section  -->
     <!-- Prev/Next Buttons -->
     <div class="next-prev-section flex flex row justify-between pt-10">
-      <div v-show="adjPages.prev">
-        <router-link class="btn uppercase my-4" :to="adjPages.prev ? '/' + adjPages.prev.id : ''">Previous</router-link>
+      <div>
+        <router-link v-if="adjPages.prev" class="btn uppercase my-4" :to="adjPages.prev ? '/' + adjPages.prev.id : '/'">Previous</router-link>
         <!-- <p class="pt-10" v-if="adjPages.prev">{{ adjPages.prev.title }}</p> -->
       </div>
-      <div v-show="adjPages.next">
-        <router-link class="btn uppercase my-4" :to="adjPages.next ? '/' + adjPages.next.id : ''">Next</router-link>
+      <div>
+        <router-link v-if="adjPages.next" class="btn uppercase my-4" :to="adjPages.next ? '/' + adjPages.next.id : '/'">Next</router-link>
         <!-- <p class="pt-10" v-if="adjPages.next">{{ adjPages.next.title }}</p> -->
       </div>
     </div>  
@@ -65,10 +73,19 @@ export default {
   mixins: [page],
   data() {
     return {
-      description: '',
+      description_english: '',
+      description_french: '',
+      artist: {
+        artistNames: '',
+        program: '',
+        year: '',
+        quote_english: '',
+        quote_french: ''
+      },
       gallery: [],
       galleryurls: [],
       galleryindex: null,
+      artistsHeadshots: [],
       adjPages: {
         prev: null,
         next: null
@@ -77,10 +94,19 @@ export default {
   },
   async created() {
     await this.pageLoaded
-    this.description = this.page.description_english
+    //--data from api assignment--
+    this.description_english = this.page.description_english
+    this.description_french = this.page.description_french
+    this.artist.artistNames = this.page.artist
+    this.artist.program = this.page.program
+    this.artist.year = this.page.year_of_student
+    this.artist.quote_english = this.page.quote_english
+    this.artist.quote_french = this.page.quote_french
+
     //TODO: Need to fix error with ablum.cover.undefined
     const files = await this.$api.getFiles(this.pageId)
     this.gallery = files.filter(file => file.type === 'image' && file.content.content_type !== 'portrait')
+    this.artistsHeadshots = files.filter(file => file.type === 'image' && file.content.content_type === 'portrait')
     this.gallery.forEach(image => {
       this.galleryurls.push(image.url)
     })
