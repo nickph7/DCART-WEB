@@ -79,7 +79,6 @@
                 <br>
               <p class="italic">Conçu à l’Université Concordia, situé à Tiohtià:ke/Montréal sur des terres Kanien’kehá:ka non cédées, 2020.</p>
             </TextWindow>
-            <!-- <TextWindow :content="page.statementfr" class="max-w-full italic md:max-w-lg relative"></TextWindow> -->
           </div>
         </div>
       </div>

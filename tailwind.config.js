@@ -16,6 +16,9 @@ module.exports = {
         'lg': '350px',
         'about': '800px'
       },
+      maxHeight: {
+        '1/2': '50%'
+      },
       fontSize: {
         'huge': '15rem',
         'very-big': '10rem'
@@ -32,6 +35,8 @@ module.exports = {
       'theme': '13px'
     }
   },
-  variants: {},
+  variants: {
+    fontStyle: ['responsive', 'hover', 'focus']
+  },
   plugins: []
 }
