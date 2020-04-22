@@ -1,0 +1,76 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+
+
+----
+
+Artist: Breea Kobernick
+
+----
+
+Contact: breeako.com and @designboiiii
+
+----
+
+Type of Project: Object
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Wood + Broken Hockey Stick
+
+----
+
+Description English:
+
+Respire is a mindfulness desk lamp that encourages stressed students to check in with themselves through breathing. The lamp has many functionalities such as recognizing the user’s emotions, as well as being aware when they press the corresponding button. Not only that but the light also gradually turns on and off to mimic mindfulness breathing. It can remain on for up to an hour until the user checks in again.
+
+----
+
+Description French:
+
+Respire est une lampe de bureau qui encourage les étudiants stressés à se contrôler en mettant leur attention sur leur respiration. La lampe possède de nombreuses fonctionnalités telles que la reconnaissance des émotions de l’utilisateur, ainsi que la prise de conscience lorsqu’il appuie sur le bouton correspondant. De plus, la lumière s’allume et s’éteint progressivement pour imiter la respiration consciente. Elle peut rester allumée pendant une heure jusqu’à ce que l’utilisateur se reconnecte.
+
+----
+
+Quote English:
+
+I wanted to make the UX very simple because understanding our emotions is confusing enough.
+
+----
+
+
+Quote French:
+
+J’ai simplifié l’UX car comprendre nos émotions est déjà assez déroutant.
+
+----
+
+Tags: Object
+
+----
+
+Title:  Respire
+

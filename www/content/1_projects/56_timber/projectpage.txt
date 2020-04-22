@@ -1,0 +1,80 @@
+Cover:
+
+- image_01.png
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.png
+- image_04.png
+- image_05.jpg
+- image_06.png
+
+----
+
+Artist:  Elizabeth Bickley-Gardner
+
+----
+
+Contact: elizabethbg088@gmail.com 
+
+----
+
+Type of Project: Web
+
+----
+
+Program: Design
+
+----
+
+Link:  https://hybrid.concordia.ca/e_bickle/Timber%20V2/Index.html
+
+----
+
+Year of Student: Second
+
+----
+
+Year Created: 2019
+
+----
+
+Materials:   Web design
+
+----
+
+Description English:
+
+Timber is online dating to find your perfect houseplant, a parody of Tinder. The user can filter what they are looking for in a plant, then swipe through plant profiles. After, they can find a list of their matches and click through to the plant’s profiles to learn more about the individual plant.
+
+----
+
+Description French:
+
+Timber est un site de rencontres en ligne pour trouver la plante d’intérieur parfaite, une parodie de Tinder. L’utilisateur peut filtrer se qu’il recherche dans une plante, puis parcourir les profils de plantes. Ensuite, il peut trouver une liste de ses “match” et cliquer sur les profils de la plante pour en savoir plus sur la plante individuelle. 
+
+
+----
+
+Quote English:
+
+"For the most part, things never get built the way that they were drawn" - Maya Lin
+
+----
+
+
+Quote French:
+
+"Pour la plupart, les choses ne sont jamais construites comme elles ont été dessinées" - Maya Lin
+
+----
+
+Tags: Web
+
+----
+
+Title:  Timber
+

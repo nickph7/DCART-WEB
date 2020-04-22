@@ -1,0 +1,78 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+
+----
+
+Artist: Alessia Signorino
+
+----
+
+Contact: signor.aless@gmail.com
+
+----
+
+Type of Project: Object, Interactive
+
+----
+
+Program: Design & Computation Arts
+
+----
+
+Year of Student: Fifth
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Wood, steel, aluminum, fabric, circuitry
+
+----
+
+Description English:
+
+The sculpture’s dynamic with the public disrupts an imperious perception of time. Grasping time and light into one’s hands to the desired position, the mechanism is an invitation to play with the manipulation of location in time. Eclisse presents time as an entity rooted to natural elements that disclose the progression of time, such as the distinction of seasons, the changes in sky colour as the Earth orbits around the sun as well as the perception of the sun itself rising and falling each day. The sculpture’s steel vertical axis acts as structural support as well as an element of the circuit. As the disk of light is moved across the vertical axis, its colour changes to represent four separate states of the day (dawn, noon, dusk and night). Via a wireless non-contact use of radio-frequency electromagnetic fields, the RFID scanner inside the disk detects the RFID tags embedded in the vertical structure, indicating to the microcontroller the disk’s position.
+
+
+----
+
+Description French:
+
+La dynamique de la sculpture avec le public perturbe la perception impérieuse du temps. Saisissant le temps et la lumière dans ses mains jusqu’à la position désirée, le mécanisme est une invitation à jouer avec la manipulation du lieu dans le temps. Eclisse présente le temps comme une entité ayant ses racines dans les éléments naturels qui nous révèlent la progression du temps, tels que la distinction des saisons, les changements de couleur du ciel lorsque la Terre tourne autour du soleil ainsi que la perception du soleil qui se lève et se couche chaque jour. L’axe vertical en acier de la sculpture sert de support structurel ainsi que d’élément du circuit. Lorsque le disque de lumière est déplacé sur l’axe vertical, sa couleur change pour représenter quatre états distincts du jour (l’aube, le midi, le crépuscule et la nuit). Grâce à une utilisation sans fil et sans contact des champs électromagnétiques de radiofréquence, le scanner RFID à l’intérieur du disque détecte les étiquettes RFID intégrées dans la structure verticale, indiquant au micro-contrôleur la position du disque.
+
+
+----
+
+Quote English:
+The linear perception of time is a matter of concern rather than a factual matter.
+
+----
+
+
+Quote French:
+La perception linéaire du temps est un enjeu plutôt qu'une vérité.
+
+
+----
+
+Tags: Object, Interactive
+
+----
+
+Title:  Eclisse
+

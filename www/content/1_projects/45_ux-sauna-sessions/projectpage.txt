@@ -1,0 +1,78 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.png
+
+
+----
+
+Artist: Anne-Marie Mulumba
+
+----
+
+Contact: uxsauna.substack.com
+
+----
+
+Type of Project:  A user experience-focused community built  in MTL
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Fourth 
+
+----
+
+Year Created: 2019
+
+----
+
+Materials: Events
+
+----
+
+Description English:
+
+UX Sauna Sessions are ephemeral, cozy gatherings between fellow humans to navigate an ambiguous career path in UX design and research through exchanges that reconnect, rejuvenate and grow with the help of others.
+
+----
+
+Description French:
+
+Les UX Sauna Sessions sont des rencontres éphémères et chaleurese entre semblables pour naviguer un parcours professionnel ambigu en design et recherche UX à travers des échanges qui connectent, renouvellent et développent avec l’aide des autres.
+
+
+----
+
+Quote English:
+
+
+Building this community started with understanding what the needs of the future attendees.
+
+
+----
+
+Quote French:
+
+
+Il a passer par comprendre quels étaient les besoins des futurs participants.
+
+
+----
+
+Tags: UX, user experience
+
+----
+
+Title:  UX Sauna Sessions
+

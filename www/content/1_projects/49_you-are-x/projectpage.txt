@@ -1,0 +1,80 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.png
+- image_03.jpg
+
+----
+
+Artist: Jennifer Powroznyk, Victor Ivanov, Simon Demeule, Catherine Weng
+
+----
+
+Contact: https://v-os.ca/You%20Are%20X
+
+----
+
+Type of Project: Interactive, Installation, VR
+
+----
+
+Program:  Computation Arts
+
+----
+
+Link: https://www.youtube.com/watch?v=Pk6kRKgpXrQ&feature=emb_title
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2019
+
+----
+
+Materials:  Unity 3D
+
+----
+
+Description English:
+
+
+You Are X is a minimalist installation and interactive VR simulation in which users embody, in a sequence of scenes, a series of different atomic elements and pieces of matter. These scenes showcase static matter, dynamic cellular life, and chemical reactions. For each scene, users are transported to an environment where the selected piece of matter would typically be found. Different visual profiles exist for various levels of magnification: standard microscopy, electron microscopy, and even abstract graphics for smaller sizes. In these scenes exist hotspots that reveal information about the material’s geographical origin, its current location, the processes required for its extraction and processing, and other information relevant to the material’s ecological impact.
+
+
+----
+
+Description French:
+
+You Are X est une installation minimaliste et une simulation interactive de réalité virtuelle dans laquelle les utilisateurs incarnent, dans une séquence de scènes, une série d’éléments atomiques et de morceaux de matière différents. Ces scènes mettent en lumière la matière statique, la vie cellulaire dynamique et les réactions chimiques. Pour chaque scène, les utilisateurs sont transportés dans un environnement où se trouve généralement le morceau de matière sélectionné. Il existe différents profils visuels pour différents niveaux de grossissement : microscopie standard, microscopie électronique, et même des graphiques abstraits pour des tailles plus petites. Dans ces scènes, il existe des points chauds qui révèlent des informations sur l’origine géographique de la matière, son emplacement actuel, les processus nécessaires à son extraction et à sa transformation, ainsi que d’autres informations relatives à l’impact écologique de la matière.
+
+
+----
+
+Quote English:
+
+Process is both the visible path before us and the foggy trail ahead of it.
+
+----
+
+Quote French:
+
+Le processus est à la fois le chemin visible devant nous et le sentier brumeux devant lui.
+
+
+
+----
+
+Tags: Interactive, Installation, VR
+
+----
+
+Title:  You Are X
+

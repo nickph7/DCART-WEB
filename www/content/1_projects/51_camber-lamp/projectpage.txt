@@ -1,0 +1,80 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+
+----
+
+Artist: Jason Elaschuk
+
+----
+
+Contact:  https://jasonelaschuk.myportfolio.com/work
+
+----
+
+Type of Project: Object
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2018
+
+----
+
+Materials:  Walnut and steel
+
+----
+
+Description English:
+
+Camber is directly inspired by the issue of having a small desk as a student. Circular base lamps which I’ve had in the past have always seemed to disrupt the corners of my page while drawing or doing other work. With camber, the right angle base allows for light to seamlessly flow overtop the user’s page, laptop, or book with no disturbances. Built for disassembly, and completely out of scrap walnut and steel, the idea of making sustainable products sexy was the other main goal of this lamp. With the tap-on tap-off switch combined with the adjustable magnet mechanism, Camber aims to bridge the gap between both design and sustainability by looking as if it could be a beautiful mass-produced product.
+
+
+----
+
+Description French:
+
+
+Camber est inspiré par la problématique d’avoir un petit bureau en tant qu’étudiant. Les lampes à base circulaire que j’ai eues dans le passé ont toujours perturbé les coins de ma page en dessinant ou en faisant d’autres travaux. Le pied en angle et la base au coin carré permettent à la lumière de passer audessus de la page de l’utilisateur, de l’ordinateur portable ou du livre sans aucune perturbation. Cette lampe a été conçue pour être démontée et est entièrement réalisée à partir de matériaux réutilisés tels que des retailles de noyer et d’acier. L’idée de rendre les produits durables sexy était un autre objectif principal de cette lampe. Grâce à l’interrupteur de robinetterie combiné au mécanisme d’aimant ajustable, Camber vise à combler le vide entre le design et la viabilité en ayant l’air d’un beau produit fabriqué en série.
+
+
+----
+
+Quote English:
+
+The process was very hands-on.
+
+----
+
+
+Quote French:
+
+Le processus a été très pratique.
+
+----
+
+Tags: lamp, object
+
+----
+
+Title:  Camber Lamp
+

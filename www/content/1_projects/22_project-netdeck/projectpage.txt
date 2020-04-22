@@ -1,0 +1,76 @@
+Cover:
+
+- image_01.png
+
+----
+
+Secondary: 
+
+- image_02.png
+- image_03.png
+- image_04.jpg
+- image_05.png
+
+----
+
+Artist: Martin-John Heart & Jonathan Ganz
+
+----
+
+Contact: martinjohnhearty.com
+
+----
+
+Type of Project: Web
+
+----
+
+Program: Computation Arts
+
+----
+
+Year of Student: Third
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Website: netdeck.app (Progressive Web App - PWA)
+
+----
+
+Description English:
+
+NET Deck is a modern twist on the traditional use of a tarot deck while focusing on generative storytelling while sharing stories and moments with others. The aim of this project is not only the creation of a unique tarot deck, but to bring the essence of the tarot deck into the new age by utilizing modern technology to enhance the experience. Our goal is to generate a dialogue that is more than one-dimensional between multiple users. Ideally, it will foster an ever-growing repertoire of stories and moments that preserves the oral tradition of storytelling alive while still keeping true to a traditional tarot deck. 
+
+
+----
+
+Description French:
+
+NET Deck est une version moderne de l’utilisation traditionnelle d’un jeu de tarot, tout en mettant l’accent sur la narration générative et le partage d’histoires et de moments avec les autres. L’objectif de ce projet n’est pas seulement de créer un jeu de tarot unique, mais d’amener l’essence du jeu de tarot dans le nouvel âge en utilisant la technologie moderne pour améliorer l’expérience. Notre objectif est de générer un dialogue plus qu’unidimensionnel entre de multiples utilisateurs. Dans l’idéal, il favorisera un répertoire toujours croissant d’histoires et de moments qui préserve la tradition orale de la narration tout en restant fidèle à un jeu de tarot traditionnel.
+
+
+----
+
+Quote English:
+
+Design, redesign, overdesign, de-design: the design.
+
+----
+
+
+Quote French:
+
+Design, redesign, overdesign, de-design: le design.
+
+----
+
+Tags: web
+
+----
+
+Title:  NET Deck
+

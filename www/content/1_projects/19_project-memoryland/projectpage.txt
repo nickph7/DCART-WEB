@@ -1,0 +1,77 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.png
+- image_03.png
+- image_04.png
+- image_05.png
+- image_06.png
+- image_07.jpg
+
+
+----
+
+Artist:  Ali Egseem
+
+----
+
+Contact: aliegseem.com
+
+----
+
+Type of Project: Installation
+
+----
+
+Program: Computation Arts
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2019
+
+----
+
+Materials:  Video Game Installation
+
+----
+
+Description English:
+
+MEMORYLAND is a virtual 3D world populated by your memories. Explore, interact with and discover what you’ve forgotten. All of your favourite characters, places and things are here. Although, they’ve been slightly distorted by time. That doesn’t change what they are, right? Right?
+
+
+----
+
+Description French:
+
+MEMORYLAND est un monde virtuel 3D peuplé par tes souvenirs. Explorez et interagissez avec ce que vous avec oublié. Vos souvenirs favoris sont tous ici! Par contre, ils ont été faussés un peu avec le temps. Mais ils n’ont pas changer tant que ça... n’est-ce pas?
+
+----
+
+Quote English:
+
+If I’m no longer insecure about what I’ve put out there I know it’s no longer mine.
+
+----
+
+Quote French:
+
+Si je ne suis plus insécure par rapport à ce que j’ai présenté, je considère alors que cette chose est finie.
+
+----
+
+Tags: videogame 
+
+----
+
+Title:  MEMORYLAND
+

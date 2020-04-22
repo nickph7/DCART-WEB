@@ -33,7 +33,7 @@ export default {
   },
   async created() {
     await this.pageLoaded
-    var streamKill = true;   //change to false to make stream appear!
+    var streamKill = false;   //change to false to make stream appear!
     if(streamKill){
       document.getElementById('embededStream').remove();
       document.getElementById('embededChat').remove();

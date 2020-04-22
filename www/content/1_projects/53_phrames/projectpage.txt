@@ -1,0 +1,76 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.png
+
+----
+
+Artist: Oscar Marhue 
+
+----
+
+Contact: @oscarmarhue
+
+----
+
+Type of Project: 
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Biodegradable polymer
+
+----
+
+Description English:
+
+Phrames is a project that I set out to accomplish in the Winter 2020 semester in my final term at Concordia. The idea began with a task from my father to create a pair of glasses he can use everyday. The project was nearing completion until the COVID-19 pandemic occurred which halted it’s production in some form. What was accomplished was multiple prototypes, a final design, augmented reality version to try on with a smart device. The future of this project is to finally create and produce frames made with eco-friendly materials, hopefully biodegradable. 
+
+
+----
+
+Description French:
+
+Phrames est un projet que j’ai décidé de réaliser au cours de la session d’hiver 2020, lors de mon dernier semestre à Concordia. Cette idée est née lorsque mon père m’a demandé de créer une paire de lunettes qu’il pourrait utiliser tous les jours. Le projet avançait à un bon rythme jusqu’à ce que la pandémie COVID-19 se produise et me force d’arrêter sa production. Parmi ce qui a été accompli se trouvent de multiples prototypes, un design final ainsi qu’une version en AR (réalité augmentée) à essayer avec un appareil intelligent. Le futur de ce projet est de créer et de produire des montures fabriquées avec des matériaux écologiques et espérons-le, biodégradables.
+
+----
+
+Quote English:
+
+
+I enjoyed the creation experience and hope to take it to production soon.
+
+
+----
+
+
+Quote French:
+
+J'ai apprécié l'expérience de la création et j'espère pouvoir la mettre en production bientôt.
+
+----
+
+Tags: Object, polymer
+
+----
+
+Title:  Phrames
+

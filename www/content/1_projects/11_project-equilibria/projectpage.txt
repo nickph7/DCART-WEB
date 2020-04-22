@@ -1,0 +1,84 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+- image_09.jpg
+- image_10.jpg
+- image_11.jpg
+- image_12.png
+
+----
+
+Artist: Nicolas Prudhomme, Audrey Laure St-Louis, Allan Pichardo, Dylan Hancock, Emily Wu
+
+----
+
+Contact: nic.prudhomme3@gmail.com
+
+----
+
+Type of Project: Interactive
+
+----
+
+Link: https://www.youtube.com/watch?v=alJGOYO-9xU&feature=youtu.be 
+
+----
+
+Program: Computation Arts
+
+----
+
+Year of Student: Third
+
+----
+
+Year Created: 2019
+
+----
+
+Materials:  Wood, glass, video projections, water, ink, camera
+
+----
+
+Description English:
+
+Equilibria is an interactive installation that immerses the viewers into a simulated ecosystem which they must collectively endeavor to preserve for future viewers. It’s main focus is an interactive sculpture centered between a number of suspended vellum paper panels which bloom with foliage or die in reaction to the viewer’s actions. As visitors interact with the sculpture, they are forced to confront the reality that their consumption ultimately leads to the system’s destruction. This realization prompts viewers to consider how best to conserve the experience for future visitors, who serve as a proxy for future generations. Equilibria invites viewers to think about their place within the global ecosystem and hopes to develop an awareness of their own finite reality.
+
+----
+
+Description French:
+
+Equilibria est une installation immersive plongeant ses spectateurs dans un écosystème simulé qu’ils devront collectivement préserver pour les visiteurs prochains. Une sculpture interactive est placée au centre d’une forêt numérique, réagissant à la présence prolongée des participants. Alors que les visiteurs explorent cet étrange milieu, ils se rendront vite compte que leur présence menera ultimement à sa destruction. Cette prise de conscience invite le public à réfléchir à la meilleure façon de préserver l’œuvre pour les visiteurs suivants, une allusion à notre propre écosystème que nous devons conserver pour les générations futures.
+
+----
+
+Quote English:
+
+It's hard to draw the line between a finished and an unfinished work.
+
+----
+
+Quote French:
+
+Il est difficile de tracer la ligne entre une œuvre achevée et une œuvre inachevée.
+
+----
+
+Tags: Interactive
+
+----
+
+Title:  Equilibria
+

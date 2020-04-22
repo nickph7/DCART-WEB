@@ -1,0 +1,74 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+
+----
+
+Artist:  Mark Khoury
+
+----
+
+Contact: www.markkhoury.ca 
+
+----
+
+Type of Project: Object
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2018
+
+----
+
+Materials: Wood, Metal, Cork, and Plexi  
+
+----
+
+Description English:
+
+Inspired by the build and aesthetics of vintage hi-fi stereo equipment, the Lamplifier is a fully disassemblable, LED desk lamp that uses sustainable materials to support a premium quality of finish and contemporary form.
+
+----
+
+Description French:
+
+Inspiré par la construction et l’esthétique des équipements hi-fi stéréo d’époque, le Lamplifier est une lampe de bureau LED entièrement démontable qui utilise des matériaux durables pour soutenir une qualité de finition supérieure et une forme contemporaine.
+
+----
+
+Quote English:
+
+There was a lot of fine-tuning and small component making that was as rewarding as it was time-consuming.
+
+----
+
+Quote French:
+
+Il y a eu beaucoup de peaufinage qui ont été aussi gratifiants que longs.
+
+----
+
+Tags: object
+
+----
+
+Title: The Lamplifier
+

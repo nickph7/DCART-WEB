@@ -1,0 +1,80 @@
+Cover:
+
+- image_01.png
+
+----
+
+Secondary: 
+
+- image_02.png
+- image_03.png
+- image_04.png
+
+
+----
+
+Artist: Alexey Glukhov, Wesley Lord, Sherman Fong, Artem Gloukhov
+
+----
+
+Contact: sfong.ima@gmail.com
+
+----
+
+Type of Project: Interactive
+
+----
+
+Link: https://www.youtube.com/watch?v=bCEJjwxe_kw
+
+----
+
+Program: Computation Arts
+
+----
+
+Year of Student: Fifth
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Digital game
+
+----
+
+Description English:
+
+I Have to Fix This Frickin’ Wall Everyday is an interactive video game that is produced during the Global Game Jam 2020. In this game, you play as a disgruntled construction worker who is under the command of a certain president. The objective in this game is to repair the border wall while avoiding obstacles such as Bernie being held by balloons. With this year’s game jam theme being “Repair,” we decided to create a comedic, satirical take on the Mexico-United States barrier situation. For instance, Trump’s behaviour is satirized in cutscenes that took place between levels.
+
+
+----
+
+Description French:
+
+I Have to Fix This Frickin’ Wall Everyday est un jeu vidéo interactif qui a été produit pendant le Global Game Jam 2020. Dans ce jeu, vous incarnez un ouvrier du bâtiment mécontent qui est sous les ordres d’un certain président. Contraint de réparer le mur de la frontière, votre objectif dans ce jeu est de réparer le mur de la frontière tout en évitant les obstacles comme le fait que Bernie soit tenu par des ballons. Le thème du jeu de cette année étant de «Réparer», nous avons décidé de créer une version comique et satirique de la situation de la barrière entre le Mexique et les États-Unis. Par exemple, les comportements de Trump sont satiriques dans les cutscenes qui ont eu lieu entre les niveaux.
+
+
+----
+
+Quote English:
+
+I find the process of projects more interesting than the final result.
+
+----
+
+
+Quote French:
+
+Je trouve le processus des projets plus intéressant que le résultat final.
+
+----
+
+Tags: Game
+
+----
+
+Title:  I Have to Fix This Frickin' Wall Everyday
+
