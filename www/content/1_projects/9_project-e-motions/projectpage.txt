@@ -1,66 +1,66 @@
 Cover:
 
--image_01.jpg
+- image_01.png
 
-——
+----
 
 Secondary: 
 
--image_02.jpg
--image_03.jpg
--image_04.jpg
--image_05.jpg
+- image_02.png
+- image_03.png
+- image_04.png
+- image_05.png
+- image_06.jpg
 
-
-——
+----
 
 Artist: Audrey-Laure St-Louis
 
-——
+----
 
 Contact: audreylaurestlouis@gmail.com
 
-——
+----
 
 Type of Project: Projection
 
-——
+----
 
 Program: Computation Arts
 
-——
+----
 
 Year of Student: Third
 
-—-
+----
 
 Year Created: 2019
 
-—-
+----
 
 Materials:  Javascript
 
-——
+----
 
 Description English:
 
 Non-verbal communications are a key component of everyday human interactions. Facial expression is one of them and it often conveys an emotion. But what are emotions? An emotion can be perceived as the affective aspect of consciousness. However, sometimes, we are not conscious of what message we are communicating with our facial expression. This piece tries to reflect and question the viewer on the emotion he is portraying with his facial expression. It explores the notion of non-verbal communication between a human and a machine and the aspect of universality that surrounds it. Using a camera to capture the facial expression of its viewer, a projection of wavy circles will then change in real-time in function of  the emotion recognized by the computer as an input. Using artificial intelligence, the machine will detect when a facial expression portraying as an example happiness is expressed in front of the camera and the projection will turn to yellow.
 
 
-——
+----
 
 Description French:
 
 Les communications non verbales sont un élément clé des interactions humaines quotidiennes. Les expressions du visage en font partie et elles sont souvent porteuse d'une émotion. Mais qu'est-ce qu'une émotion ? Une émotion peut être perçue comme l'aspect affectif de la conscience. Cependant, parfois, nous ne sommes pas conscients du message que nous communiquons avec notre expression faciale. Cette pièce tente de réfléchir et d'interroger le spectateur sur l'émotion qu'il exprime avec son expression faciale. Elle explore la notion de communication non verbale entre un humain et une machine et l'aspect d'universalité qui l'entoure. En utilisant une caméra pour capturer l'expression faciale de son spectateur, une projection de cercles ondulés va alors se modifier en temps réel en fonction de l'émotion reconnue par l'ordinateur comme une entrée. Grâce à l'intelligence artificielle, la machine détectera quand une expression faciale représentant par exemple le bonheur, sera exprimée devant la caméra et la projection deviendra jaune.
 
-——
+----
 
 Quote English:
 
 Processes are all about ups and downs and that's what makes them fun.
 
 
-——
+----
 
 
 Quote French:
@@ -68,11 +68,11 @@ Quote French:
 Les processus ont leurs hauts et leurs bas et c'est ce qui les rend amusants.
 
 
-——
+----
 
 Tags: javascript
 
-——
+----
 
 Title: E-motions
 

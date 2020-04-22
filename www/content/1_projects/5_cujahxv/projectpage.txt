@@ -14,6 +14,8 @@ Secondary:
 - image_07.jpg
 - image_08.jpg
 - image_09.jpg
+- image_10.jpg
+- image_11.png
 
 ----
 

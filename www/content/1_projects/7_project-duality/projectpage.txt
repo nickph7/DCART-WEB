@@ -1,13 +1,13 @@
 Cover:
 
--image_01.jpg
+- image_01.jpg
 
 ----
 
 Secondary: 
 
--image_02.jpg
--image_03.jpg
+- image_02.jpg
+- image_03.jpg
 
 
 ----
