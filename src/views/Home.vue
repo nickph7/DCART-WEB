@@ -15,7 +15,7 @@
       </div>
       <div class="intro-video overflow-hidden z-10 bg-black">
         <!-- Placeholder -->
-        <vimeo-player ref="player" :options="options" video-id="410838309" />
+        <vimeo-player ref="playerIntro" :options="options" video-id="410838309" />
       </div>
     </div>
     <!--Curatorial statement/About section -->
@@ -25,14 +25,18 @@
       </TextWindow>
       <div
         class="rellax"
+        :class="[isPlaying ? 'z-50' : 'z-0']"
         v-rellax="{
-        speed: -2.9
+        speed: -2.5
       }">
         <vimeo-player
-          ref="player"
+          ref="playerAbout"
           video-id="400743103"
           :options="options_about"
-          class="curatext-video w-screen -ml-4 md:ml-0 md:mx-auto my-2 md:w-11/12 lg:w-10/12 relative md:absolute z-0"
+          @play="enterVideoTheatre"
+          @pause="exitVideoTheatre"
+          @stop="exitVideoTheatre"
+          class="curatext-video w-screen -ml-4 md:ml-0 md:mx-auto my-2 md:w-11/12 lg:w-10/12 relative md:absolute"
         />
       </div>
       <span class="humongous-text font-display text-gray-900 absolute">in.finite</span>
@@ -44,7 +48,7 @@
     <!-- Projects -->
     <div class="project-section flex justify-center items-center content-center relative">
       <!-- <Filters></Filters> -->
-      <div class="absolute z-0 max-w-3xl">
+      <div class="absolute z-0 max-w-3xl top-0" :style="{top: imgTop + '%'}">
         <transition name="fade">
           <img
             class="rounded-theme border border-black object-contain h-auto"
@@ -73,7 +77,7 @@
             <router-link :to="'/' + project.id">
               <p
                 class="font-display text-center text-lg uppercase mb-4 leading-none sm:text-xl md:text-2xl hover:italic"
-                @mouseenter="showPicture(project)"
+                @mouseenter="showPicture(project, projectInd)"
                 @mouseleave="hidePicture"
               >
                 {{ project.content.title }}
@@ -139,17 +143,28 @@ export default {
         color: 'f7f7f7'
       },
       isHidden: false,
-      imgFile: null
+      imgFile: null,
+      imgTop: 0,
+      isPlaying: false
     }
   },
   methods: {
     showPicture(project, index) {
       console.log(index)
       this.imgFile = project.content.cover[0] ? project.content.cover[0] : null
+      this.imgTop = (index % 28) * 2.142857
       this.isHidden = true
     },
     hidePicture() {
       this.isHidden = false
+    },
+    enterVideoTheatre(){
+      console.log('Enter Video Theatre')
+      this.isPlaying = true;
+
+    },
+    exitVideoTheatre(){
+      this.isPlaying = false;
     }
   },
   async created() {

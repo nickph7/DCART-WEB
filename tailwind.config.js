@@ -22,14 +22,14 @@ module.exports = {
       fontSize: {
         'huge': '15rem',
         'very-big': '10rem'
+      },
+      inset: {
+        '1/2': '50%'
       }
     },
     fontFamily: {
       display: ['Supply', 'Consolas', 'monospace'],
       body: ['"Object Sans"', '"Avenir Next"', 'Avenir', '"Century Gothic"', 'Helvetica', 'Arial', 'sans-serif']
-    },
-    inset: {
-      '1/2': '50%'
     },
     borderRadius: {
       'theme': '13px'
