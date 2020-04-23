@@ -52,6 +52,11 @@
 
 body {
     @apply font-body;
+    margin: 0 !important;
+}
+
+page {
+    min-height: calc(100vh - 8rem);
 }
 
 .custom-cursor {

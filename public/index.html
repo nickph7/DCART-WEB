@@ -7,6 +7,12 @@
     
     <!-- JS is available (e.g. https://cli.vuejs.org/guide/html-and-static-assets.html#interpolation) -->
     <link rel="icon" href="<%= BASE_URL %>favicon_1.svg">
+    <style>
+      body {
+        margin: 0 !important;
+        font-family: "Object Sans", "Avenir Next", Avenir, "Century Gothic", Helvetica, Arial, sans-serif
+      }
+    </style>
 
     <!-- PHP and Kirby is available (e.g. for values that need to be rendered server-side, such as Open Graph or Twitter meta tags) -->
     <title><?= $site->title() . ' | ' . $page->title() ?></title>
