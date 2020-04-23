@@ -13,14 +13,15 @@
       <p class="flex-1 mb-8 sm:mr-3 md:mr-6 max-w-xl">{{ description_english }}</p>
       <p class="flex-1 italic sm:ml-3 md:ml-6 max-w-xl">{{ description_french }}</p>
     </div>
+    <span></span>
 
     <!-- gallery -->
     <!-- <Gallery></Gallery> -->
     <VueGallery :images="galleryurls" :index="galleryindex" @close="galleryindex = null"></VueGallery>
-    <KirbyImage :file="page.cover[0]" thumb="crop" :params="[1024, 768]" class="cover mb-8 mx-auto" />
+    <img :src="cover.url" class="cover mb-8 mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      <div v-for="(image, imageIndex) in gallery.slice(1)" :key="imageIndex" @click="galleryindex = imageIndex + 1" class="cursor-pointer">
-        <KirbyImage :file="image" thumb="resize" :params="[400]" class="object-cover h-full h-md w-lg mx-auto" />
+      <div v-for="(image, imageIndex) in galleryurls.slice(1)" :key="imageIndex" @click="galleryindex = imageIndex + 1" class="cursor-pointer">
+        <img :src="image" class="object-cover h-full h-md w-lg mx-auto" >
       </div>
     </div>
 
@@ -73,6 +74,7 @@ export default {
   mixins: [page],
   data() {
     return {
+      cover: {},
       description_english: '',
       description_french: '',
       artist: {
@@ -104,6 +106,8 @@ export default {
     this.artist.quote_french = this.page.quote_french
 
     //TODO: Need to fix error with ablum.cover.undefined
+    const cover = this.page.cover[0]
+    this.cover = cover
     const files = await this.$api.getFiles(this.pageId)
     this.gallery = files.filter(file => file.type === 'image' && file.content.content_type !== 'portrait')
     this.artistsHeadshots = files.filter(file => file.type === 'image' && file.content.content_type === 'portrait')

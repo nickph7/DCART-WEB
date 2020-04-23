@@ -134,3 +134,4 @@ www/favicon.ico
 # local env files - Want to keep the same read-only API between accounts
 .env.local
 .env.*.local
+www.zip

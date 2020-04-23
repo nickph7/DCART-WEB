@@ -9,7 +9,7 @@ module.exports = {
   assetsDir: 'assets',
   indexPath: 'site/snippets/vue-index.php',
   routerPath: 'kirby/router.php',
-  publicPath: '/kirby-vue-built/',
+  publicPath: 'https://graduationshow.concordia.ca/2020/',
 
   serveBackend: () => {
     php.createServer({
