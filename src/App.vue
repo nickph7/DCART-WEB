@@ -1,15 +1,14 @@
 <template>
-  <div id="app" class="custom-cursor overflow-x-hidden">
-    <div class="page">
+  <div id="app" class="custom-cursor overflow-x-hidden h-full flex flex-col">
+    <StreamBar />
+    <div class="page" style="flex: 1 0 auto;">
       <Header />
-      <StreamBar />
-
       <keep-alive>
         <router-view :key="$route.path" @update-title="updateTitle" />
       </keep-alive>
     </div>
 
-    <Footer />
+    <Footer style="flex-shrink: 0;" />
   </div>
 </template>
 

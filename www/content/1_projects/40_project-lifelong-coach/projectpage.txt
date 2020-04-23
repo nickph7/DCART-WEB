@@ -1,6 +1,6 @@
 Cover:
 
-- image_01.png
+- image_01.jpg
 
 ----
 

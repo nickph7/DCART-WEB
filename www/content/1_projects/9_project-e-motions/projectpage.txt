@@ -1,15 +1,15 @@
 Cover:
 
-- image_01.png
+- image_01.jpg
 
 ----
 
 Secondary: 
 
-- image_02.png
-- image_03.png
-- image_04.png
-- image_05.png
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
 - image_06.jpg
 
 ----

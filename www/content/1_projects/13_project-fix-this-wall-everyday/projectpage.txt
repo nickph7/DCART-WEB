@@ -1,14 +1,14 @@
 Cover:
 
-- image_01.png
+- image_01.jpg
 
 ----
 
 Secondary: 
 
-- image_02.png
-- image_03.png
-- image_04.png
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
 
 
 ----
@@ -45,6 +45,10 @@ Materials:  Digital game
 
 ----
 
+URL: (link:https://www.dropbox.com/s/f41jw3fetxbw0lr/Trump%20new%20build.zip?dl=0 text: Download link target: _blank)
+
+----
+
 Description English:
 
 I Have to Fix This Frickin’ Wall Everyday is an interactive video game that is produced during the Global Game Jam 2020. In this game, you play as a disgruntled construction worker who is under the command of a certain president. The objective in this game is to repair the border wall while avoiding obstacles such as Bernie being held by balloons. With this year’s game jam theme being “Repair,” we decided to create a comedic, satirical take on the Mexico-United States barrier situation. For instance, Trump’s behaviour is satirized in cutscenes that took place between levels.
@@ -69,6 +73,7 @@ I find the process of projects more interesting than the final result.
 Quote French:
 
 Je trouve le processus des projets plus intéressant que le résultat final.
+
 
 ----
 

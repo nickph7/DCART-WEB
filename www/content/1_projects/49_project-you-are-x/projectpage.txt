@@ -6,7 +6,7 @@ Cover:
 
 Secondary: 
 
-- image_02.png
+- image_02.jpg
 - image_03.jpg
 
 ----

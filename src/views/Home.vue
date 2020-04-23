@@ -14,22 +14,27 @@
         </div>
       </div>
       <div class="intro-video overflow-hidden z-10 bg-black">
-        <vimeo-player ref="player" :options="options" video-id="409639362" />
+        <!-- Placeholder -->
+        <vimeo-player ref="player" :options="options" video-id="410838309" />
       </div>
     </div>
     <!--Curatorial statement/About section -->
-    <div class="about-section my-10 py-20 flex flex-col relative">
-      <TextWindow class="curatext-english mb-0 max-w-none md:max-w-lg relative md:absolute z-10">
+    <div class="about-section my-10 py-20 mx-auto flex flex-col relative my-20 max-w-screen-xl">
+      <TextWindow class="curatext-english max-w-none md:max-w-lg relative md:absolute z-10">
         <span v-html="curationtext"></span>
       </TextWindow>
-      <parallax>
+      <div
+        class="rellax"
+        v-rellax="{
+        speed: -2.9
+      }">
         <vimeo-player
           ref="player"
           video-id="400743103"
           :options="options_about"
-          class="curatext-video w-screen md:mx-auto my-2 md:w-11/12 lg:w-10/12 relative md:absolute z-0"
+          class="curatext-video w-screen -ml-4 md:ml-0 md:mx-auto my-2 md:w-11/12 lg:w-10/12 relative md:absolute z-0"
         />
-      </parallax>
+      </div>
       <span class="humongous-text font-display text-gray-900 absolute">in.finite</span>
       <TextWindow class="curatext-french max-w-none md:max-w-xl italic relative md:absolute z-10">
         <span v-html="curationtext_french"></span>
@@ -41,30 +46,38 @@
       <!-- <Filters></Filters> -->
       <div class="absolute z-0 max-w-3xl">
         <transition name="fade">
-          <KirbyImage class="rounded-theme border border-black object-contain h-auto"
-            v-if="isHidden && imgFile"
-            :file="imgFile"
-            thumb="resize"
-            :params="[800, 800]" />
+          <img
+            class="rounded-theme border border-black object-contain h-auto"
+            v-if="isHidden"
+            :src="imgFile.url"
+          >
         </transition>
       </div>
       <div class="grid grid-cols-2 my-4 gap-4 z-10 md:gap-6 my-6">
         <ul class="">
           <li v-for="(project, projectInd) in projects.slice(0, Math.floor(projects.length / 2))" :key="projectInd" class="">
             <router-link :to="'/' + project.id">
-              <p class="font-display text-center text-lg uppercase mb-4 leading-none sm:text-xl md:text-2xl hover:italic"
-                @mouseenter="showPicture(project)"
-                @mouseleave="hidePicture">{{ project.content.title }}</p>
-                <!-- project.content.cover[0].url -->
+              <p
+                class="font-display text-center text-lg uppercase mb-4 leading-none sm:text-xl md:text-2xl hover:italic"
+                @mouseenter="showPicture(project, projectInd)"
+                @mouseleave="hidePicture"
+              >
+                {{ project.content.title }}
+              </p>
+              <!-- project.content.cover[0].url -->
             </router-link>
           </li>
         </ul>
         <ul class="">
-          <li v-for="(project, projectInd) in projects.slice(Math.floor(projects.length / 2)+1, projects.length)" :key="projectInd" class="">
+          <li v-for="(project, projectInd) in projects.slice(Math.floor(projects.length / 2) + 1, projects.length)" :key="projectInd" class="">
             <router-link :to="'/' + project.id">
-              <p class="font-display text-center text-lg uppercase mb-4 leading-none sm:text-xl md:text-2xl hover:italic"
+              <p
+                class="font-display text-center text-lg uppercase mb-4 leading-none sm:text-xl md:text-2xl hover:italic"
                 @mouseenter="showPicture(project)"
-                @mouseleave="hidePicture">{{ project.content.title }}</p>
+                @mouseleave="hidePicture"
+              >
+                {{ project.content.title }}
+              </p>
             </router-link>
           </li>
         </ul>
@@ -72,12 +85,8 @@
     </div>
 
     <!-- Valérie Lamontagne honor statement  -->
-    <div class="honor-statement pt-10">
-      <img
-        class="rounded-theme mx-auto w-9/12 lg:w-8/12 max-w-3xl object-contain mb-8"
-        src="../assets/img/valerie_lamontagne_portrait.jpg"
-        alt=""
-      />
+    <div class="honor-statement pt-10 mb-10">
+      <img class="rounded-theme mx-auto w-9/12 lg:w-8/12 max-w-3xl object-contain mb-8" src="../assets/img/valerie_lamontagne_portrait.jpg" alt="" />
       <!-- <TextWindow :content="valerie"  class="w-9/12 md:max-w-lg mx-auto"></TextWindow> -->
       <TextWindow class="w-9/12 md:max-w-lg mx-auto">
         <p>
@@ -91,7 +100,8 @@
         <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p>
         <div class="flex flex-row honor-link">
           <a href="http://www.concordia.ca/cunews/finearts/design/2019/10/28/valerie-lamontagne-1968-2019.html" target="_blank">
-            > Valerie Lamontagne Scholarship Fund</a>
+            > Valerie Lamontagne Scholarship Fund</a
+          >
         </div>
       </TextWindow>
     </div>
@@ -107,8 +117,7 @@ import Parallax from 'vue-parallaxy'
 export default {
   components: {
     //Filters,
-    TextWindow,
-    Parallax
+    TextWindow
   },
   name: 'Home',
   mixins: [page],
@@ -133,15 +142,15 @@ export default {
       imgFile: null
     }
   },
-  methods:{
-    showPicture(project) {
-      console.log(project.content.cover[0])
+  methods: {
+    showPicture(project, index) {
+      console.log(index)
       this.imgFile = project.content.cover[0] ? project.content.cover[0] : null
-      this.isHidden = true;
+      this.isHidden = true
     },
     hidePicture() {
-      this.isHidden = false;
-    },
+      this.isHidden = false
+    }
   },
   async created() {
     await this.pageLoaded
@@ -160,13 +169,12 @@ export default {
 </script>
 
 <style>
-
 .intro-video {
   border-radius: 0px 0px 13px 13px;
 }
 
 .about-section {
-  height: 1000px;
+  height: 1280px;
   /* border-bottom: 1px dashed slateblue; */
 }
 
@@ -188,15 +196,23 @@ export default {
   }
 }
 
+@media screen and (max-width: 768px){
+  .rellax {
+    transform:translate3d(0, 0 ,0) !important;
+  }
+}
+
 .humongous-text {
   z-index: -10;
   font-size: 15rem;
   top: 45%;
+  right: 19%;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: white;
+  color: #0c0c0c
 }
 .project-section {
-  height: 100vh;
-  /* border-top: 1px dashed greenyellow;
-  border-bottom: 1px dashed cyan; */
+  height: auto;
 }
 .honor-link {
   transition: all 0.3s ease;
@@ -218,9 +234,9 @@ export default {
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
-  transform: scaleY(0.5) scaleX(0.7)
-
+  transform: scaleY(0.5) scaleX(0.7);
 }
 </style>
