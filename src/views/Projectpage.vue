@@ -33,10 +33,10 @@
     <!-- gallery -->
     <!-- <Gallery></Gallery> -->
     <VueGallery :images="galleryurls" :index="galleryindex" @close="galleryindex = null"></VueGallery>
-    <img :src="cover.url" class="cover mb-8 mx-auto">
+    <img :src="cover.url" class="rounded-theme cover mb-8 mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       <div v-for="(image, imageIndex) in galleryurls.slice(1)" :key="imageIndex" @click="galleryindex = imageIndex + 1" class="cursor-pointer">
-        <img :src="image" class="object-cover h-full h-md w-lg mx-auto" >
+        <img :src="image" class="rounded-theme object-cover h-full h-md w-lg mx-auto" >
       </div>
     </div>
 
