@@ -1,12 +1,22 @@
 <template>
   <main>
-    <Intro :pageTitle="page.title" />
-    <p>This is the project page</p>
-    <ul>
-      <li v-for="project in projects" :key="project.id">
-        <router-link :to="'/' + project.id">{{ project.content.title }}</router-link>
-      </li>
-    </ul>
+    <div class="project-directory h-full mb-10">
+      <ul class="project-dir grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5 max-w-screen-xl mx-auto">
+        <li class="" v-for="(project,index) in projects" :key="index">
+          <router-link :to="'/' + project.id">
+            <figure class="relative rounded-theme border border-solide border-black overflow-hidden" style="padding-bottom: 90%;">
+              <div class="absolute inset-x-0 h-6 w-full bg-white border-b border-solid border-black z-10">
+                <figcaption class="font-display uppercase text-center text-xs my-1">{{ transformTitle(project.content.title) }}</figcaption>
+              </div>
+              <img
+                class="absolute inset-0 w-full h-full object-cover"
+                :src="thumbnails[index].url"
+              >
+            </figure>
+          </router-link>
+        </li>
+      </ul>
+    </div>
   </main>
 </template>
 
@@ -18,76 +28,32 @@ export default {
   mixins: [page],
   data() {
     return {
-      projects: []
+      projects: [],
+      thumbnails: []
+    }
+  },
+  methods: {
+    transformTitle(title) {
+      return title.length > 20 ? title.slice(0, 19 - 3) + '...' : title
     }
   },
   async created() {
     const projects = await this.$api.getChildren(this.pageId)
     this.projects = projects.filter(project => project.status === 'listed')
+
+    const thumbnails = await this.$api.getFiles('projects+thumbnails')
+    console.log(thumbnails)
+    this.thumbnails = thumbnails
   }
 }
 </script>
 
 <style>
-.albums {
-  display: grid;
-  list-style: none;
-  grid-gap: 1rem;
-  line-height: 0;
+.project-dir img {
+  transition: all 0.2s;
 }
 
-@media screen and (min-width: 30em) {
-  .albums {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (min-width: 60em) {
-  .albums {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .albums[data-even] {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-.albums li {
-  overflow: hidden;
-  background: #000;
-}
-.albums figure {
-  position: relative;
-  padding-bottom: 125%;
-}
-.albums figcaption {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  line-height: 1.5em;
-  padding: 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.125em;
-}
-.albums img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.3s;
-}
-.albums img:hover {
-  opacity: 0.2;
+.project-dir img:hover {
+  transform: scale(1.1);
 }
 </style>

@@ -1,13 +1,8 @@
 <template>
-  <header class="header px-10 text-white">
+  <header class="px-10 flex flex-col items-center w-screen z-50 md:flex-row md:justify-between">
     <router-link to="/">
-      <div class="title-logodisplay: flex;
-  flex-direction: column;
-  align-items: center;">
-        <img src="../assets/img/final_logo8_b2.svg">
-      </div>
+      <img src="../assets/img/final_logo8_b2.svg" id="logo-back" class=""/>
     </router-link>
-
     <Nav></Nav>
   </header>
 </template>
@@ -19,35 +14,16 @@ export default {
   components: {
     Nav
   },
-  name: 'Header'
-}
-</script>
-
-<style scoped>
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  border-bottom: 1px solid black;
-  width: 100vw;
-  background-color: #ffffff;
-  z-index: 99;
-}
-
-.menu a {
-  color: black;
-}
-
-.menu a[aria-current],
-.menu a.router-link-active {
-  border-bottom: 2px solid #000;
-}
-
-@media screen and (min-width: 40rem) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
+  name: 'Header',
+  data() {
+    return {
+      logoBack: 0,
+      logoFront: 0
+    }
   }
 }
+
+</script>
+
+<style>
 </style>

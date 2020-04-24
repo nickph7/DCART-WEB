@@ -6,10 +6,10 @@ Cover:
 
 Secondary: 
 
--image_02.jpg
--image_03.jpg
--image_04.jpg
--image_05.jpg
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
 
 ----
 
@@ -42,7 +42,9 @@ Materials: Papers, risograph, printing
 
 ----
 
-Description_english: This booklet serves to gain knowledge about the notion of Antispeciesism. It serves as an educational tool and to spread awareness about how we treat our surroundings, more specifically the nonhuman animals. Antispeciesism is produced in an edition of 10 copies, including a double-sided poster. It is part of the 25 Memos series for the next decade.
+Description_english: 
+
+This booklet serves to gain knowledge about the notion of Antispeciesism. It serves as an educational tool and to spread awareness about how we treat our surroundings, more specifically the nonhuman animals. Antispeciesism is produced in an edition of 10 copies, including a double-sided poster. It is part of the 25 Memos series for the next decade.
 
 ----
 

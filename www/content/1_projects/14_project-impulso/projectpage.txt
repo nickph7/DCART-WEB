@@ -1,0 +1,81 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+
+
+----
+
+Artist: Antua Handal
+
+----
+
+Contact:  @ahandal_design
+
+----
+
+Type of Project: 
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Third
+
+----
+
+Year Created: 2018
+
+----
+
+Materials: plywood, fish glue
+
+----
+
+Description English:
+
+The project consists of a puzzle/game that functions based on natural forces that provoke movement. My concept is inspired by motion, gravity, and impulse. Puzzle Impulso is meant to be a game that is built using different curved pieces of plywood which can take different configurations. adepending on these configurations a small ball thrown from the starting point can take different velocities when following the path determined by the user. It is meant to be interesting and fun.
+
+
+
+----
+
+Description French:
+
+Le projet consiste en un puzzle/jeu qui se base sur les forces naturelles qui provoquent le mouvement. Mon concept s’inspire du mouvement, de la gravité et de l’impulsion. Appelé Puzzle Impulso, c’est un jeu construit à l’aide de différentes pièces courbes en contreplaqué qui peuvent prendre différentes configurations et, selon celles-ci, une petite balle lancée depuis un point de départ peut prendre différentes vitesses en suivant le chemin déterminé par l’utilisateur. Il est conçu pour être intéressant et amusant.
+
+
+----
+
+Quote English:
+
+The pieces were designed, 3D modeled and then lasercut into layers of plywood.
+
+
+----
+
+Quote French:
+
+Les pièces ont été conçues et modélisées en 3D, puis découpées au laser.
+
+----
+
+Tags: Object
+
+----
+
+Title:  Impulso Puzzle
+

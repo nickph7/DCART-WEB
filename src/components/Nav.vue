@@ -1,13 +1,9 @@
 <template>
-  <div class="nav font-display uppercase mt-4 mb-4 md:mt-0 mb-0 xl:mt-0 mb-0">
-    <nav id="menu" class="menu">
-      <router-link class="mx-6" v-for="page in $site.children.filter(page => page.status === 'listed')" :key="page.id" :to="'/' + page.id">
+  <div class="nav font-display uppercase mt-4 mb-4 md:mt-0 mb-0 xl:mt-0 mb-0 mr-0 lg:mr-10">
+    <nav id="menu" class="menu flex flex-row justify-between">
+      <router-link class="link" v-for="page in $site.children.filter(page => page.status === 'listed')" :key="page.id" :to="'/' + page.id">
         {{ page.title }}
       </router-link>
-      <!-- @click: to change -->
-      <button id="active">EN</button>
-      |
-      <button>FR</button>
     </nav>
   </div>
 </template>
@@ -18,8 +14,12 @@ export default {
 }
 </script>
 
-
 <style>
+.menu .link:not(:last-child){
+  margin-right: 2rem;
+}
+
+
 .nav {
   color: black;
   font-size: 14px;

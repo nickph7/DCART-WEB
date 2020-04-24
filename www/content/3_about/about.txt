@@ -8,7 +8,7 @@ This collection of work invites the creators and viewers to question what define
 
 ----
 
-Textfr:
+Textfrench:
 
 L'exposition de fin d'année est une opportunité unique pour partager les projets des étudiants. Cette année, COVID-19 pose un défi de taille: trouver une autre plateforme pour présenter le talent des étudiants en design et en art numérique de Concordia. Tous ensemble, les organisateurs d'in.finite ont créé une vitrine virtuelle pour cette collection d'œuvres d'art et d'expériences, qui peut être appréciée de n'importe où. Bien que nous ne puissions pas remplacer la convivialité d'une exposition physique, exposer les œuvres de manière virtuelle est une façon de découvrir et d'apprécier un large éventail d'artistes et de designers, dans un temps où nous avons tous besoin d'un peu plus de contact.
 
@@ -28,5 +28,73 @@ Quotefr:
 
 « In.fini est une exposition qui présente le processus, la conceptualisation et la réalisation d’un ensemble de compétences diverses qui vivent au sein du département de design et d’arts numériques de l’université Concordia. »
 
+----
+
+Facultyen:
+
+The year-end show is an annual tradition in the department of Design and Computation Arts, and over the years it has reflected the prevailing cultural currents of its time. This year, the current is not so much a current as it is a tidal wave, as the pandemic of COVID-19 sweeps across the country and the world. During this time of crisis, we are heartened that we can nevertheless join together to celebrate the accomplishments of our students as we always do.
+
+As we all do our part to slow the spread of the virus by maintaining physical distance, we must also sustain our community bonds and continue to seek joy and solace in creative endeavours. We feel it is important to emphasize that this year’s exhibition is not cancelled — rather, like so many aspects of our lives these days, it has simply undergone a shift from physical to virtual: from the gallery walls to an online expo and catalogue. We wish to recognize all the students who have contributed to this year’s show, without whose ingenuity and flexibility this show would not have been possible.
+
+On behalf of the D/CART department, we would also like to congratulate the artists and designers whose work is featured in these pages. This year we showcase not only your finished works, but also your creative practices and processes. May you continue to make things that spark new insights, dialogue, and a sense of delight — we need it now more than ever.
+
+M. Wright & Kate Jarboe
+
+Faculty advisors, year-end show
+
+----
+
+Facultyfr: 
+
+L’exposition de fin d’année est une tradition annuelle du département de design et des arts numériques. Au fil des ans, il a reflété les cultures dominantes de leur époque. Cette année, le tout change drastiquement, car la pandémie de COVID-19 s’abat sur le pays et le monde entier. Nous sommes déçues que nous ne puissions plus nous réunir pour célébrer les réalisations de nos élèves comme nous le faisions toujours due à cette crise.
+
+Alors que nous faisons tous notre part pour ralentir la propagation du virus en maintenant une distance physique, il faut également maintenir nos liens communautaires et continuer à rechercher la joie et le réconfort dans nos efforts créatifs. Nous croyons qu’il est important de souligner que l’exposition de 2020 n’est pas annulée — au contraire, comme tant d’aspects de notre vie quotidienne en ce moment, elle a simplement subi un passage du physique au virtuel : des murs de la galerie à une exposition et un catalogue en ligne. Nous souhaitons reconnaître tou.te.s les étudiant.e.s qui ont contribué à l’exposition de cette année; sans leur ingéniosité et leur flexibilité, cette exposition n’aurait pas été concevable.
+
+De la part du département D/CART, nous tenons également à féliciter les artistes et les designers dont les travaux sont présentés dans ces pages. Cette année, on présente non seulement vos œuvres achevées, mais aussi vos processus et vos
+pratiques créatifs. Nous vous souhaitons de continuer à réaliser des projets qui apportent de nouvelles perspectives, du dialogue, et de l’enchantement — nous en avons plus que jamais besoin.
+
+
+M. Wright & Kate Jarboe
+
+Conseillères académiques, l’exposition de fin d’année
+
+----
+
+Facultyquoteen:
+
+“We feel it is important to emphasize that this year’s exhibition is not cancelled — rather, like so many aspects of our lives these days, it has simply undergone a shift from physical to virtual: from the gallery walls to an online expo and catalogue.”
+
+----
+
+Facultyquotefr:
+
+« Nous croyons qu’il est important de souligner que l’exposition de 2020 n’est pas annulée — au contraire, comme tant d’aspects de notre vie quotidienne en ce moment, elle a simplement subi un passage du physique au virtuel : des murs de la galerie à une exposition et un catalogue en ligne. »
+
+----
+
+Sponsoren:
+
+
+The typefaces used were generously given to us by Pangram Pangram, a Montreal-based type foundry who are dedicated to designing for everyday use, while remaining trend-conscious. We thank them for their support and donation.
+
+----
+
+Sponsorfr:
+
+Les polices de caractères utilisées ont été généreusement données par Pangram Pangram, une typofoundrie Montréalaise qui se donne comme mission de créer pour utilisation quotidienne, tout en restant conscient des tendances.
+
+----
+
+Statementen:
+
+Designed at Concordia University, located in Tiohtià:ke/Montréal on unceded Kanien’kehá:ka territory, 2020.
+
+----
+
+Statementfr:
+
+Conçu à l’Université Concordia, situé à Tiohtià:ke/Montréal sur des terres Kanien’kehá:ka non cédées, 2020.
+
+----
 
 Title: About

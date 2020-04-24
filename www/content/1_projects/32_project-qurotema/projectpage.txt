@@ -1,0 +1,91 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+- image_09.jpg
+- image_10.jpg
+- image_11.jpg
+- image_12.jpg
+- image_13.jpg
+- image_14.jpg
+
+----
+
+Artist: Victor Ivanov
+
+----
+
+Contact: victor.ivanov@hotmail.com
+
+----
+
+Type of Project: Interactive
+
+----
+
+Program: Computation Arts
+
+----
+
+Link: https://www.youtube.com/watch?v=pqO7EeNAWfk
+
+----
+
+Year of Student: Fourth
+
+----
+
+Year Created: 2019
+
+----
+
+Materials:  Digital game
+
+----
+
+Description English:
+
+Qurotema is an experiment in arousing curiosity towards mechanical and musical exploration. Qurotema aims to make the mechanical exploration into a cinematic experience with smooth animations, unique movement systems, and dynamic visuals. The world responds to the user’s every move and action with sonic feedback, either triggering sequences of notes, or modifying the overall mix. Each playthrough’s soundtrack is unique, and reflects the user’s exploration path. You are a Remote Operator with one goal: investigate the nature of Qurotema, the construct universe. Weave strings whose vibrations shake the light around you, create sequences of percussive hits to give the world its rhythm, and play melodies to echo between the dark dunes.
+
+----
+
+Description French:
+
+Qurotema est une expérience qui vise à éveiller la curiosité pour l’exploration mécanique et musicale. Qurotema vise à faire de l’exploration mécanique une expérience cinématographique avec des animations fluides, des systèmes de mouvement uniques, et des visuels dynamiques. Le monde répond à chaque mouvement et chaque action de l’utilisateur avec une réaction sonore, soit en déclenchant des séquences de notes, soit en modifiant le mixage global. La musique est à chaque fois unique et reflète le chemin d’exploration de l’utilisateur. Vous êtes un Opérateur à Distance avec un seul objectif: enquêter sur la nature de Qurotema, l’univers artificiel. Tissez des cordes dont les vibrations secouent la lumière autour de vous, créez des séquences de coups percutants pour donner le rythme au monde, et jouez des mélodies qui résonnent entre les dunes sombres.
+
+
+
+----
+
+Quote English:
+
+Process is our experience, curiosity, and passion working in unison.
+
+
+----
+
+Quote French:
+
+
+Le processus, c’est notre expérience, notre curiosité et notre passion de travailler à l’unisson.
+
+
+----
+
+Tags: game
+
+----
+
+Title:  Qurotema
+

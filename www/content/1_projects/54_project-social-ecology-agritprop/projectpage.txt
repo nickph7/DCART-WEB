@@ -1,0 +1,78 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+
+
+----
+
+Artist:  Vanessa Wall
+
+----
+
+Contact:  https://www.behance.net/nessloch
+
+----
+
+Type of Project: Object
+
+----
+
+Program: Design
+
+----
+
+Year of Student: Second
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Steel, Aluminum, Wood, Polystyrene, Moss, Paper, String
+
+----
+
+Description English:
+
+An agitprop exploring the inter-connectivity of human resource acquisition systems, ecology, and interpersonal communication. This sculpture is intended to evolve over time, influenced by the natural environment and social behaviors. 
+
+
+----
+
+Description French:
+
+Un agitprop explorant l’interconnectivité des systèmes d’acquisition des ressources humaines, de l’écologie et de la communication interpersonnelle. Cette sculpture est destinée à évoluer dans le temps, influencée par l’environnement naturel et les comportements sociaux.
+
+----
+
+Quote English:
+
+Trying to glue metal together is infuriating but doable.
+
+
+----
+
+
+Quote French:
+
+Essayer de coller du métal ensemble est exaspérant mais faisable.
+
+
+----
+
+Tags: object, metal
+
+----
+
+Title:  Social Ecology Agitprop
+

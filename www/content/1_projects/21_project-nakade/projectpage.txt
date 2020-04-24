@@ -1,0 +1,87 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+- image_09.jpg
+
+
+----
+
+Artist: Simon Demeule and Victor Ivanov
+
+----
+
+Contact: simondemeule.com and v-os.ca
+
+----
+
+Type of Project:  Generative Audiovisual Piece
+
+----
+
+Link: https://vimeo.com/386068451
+
+----
+
+Program: Computation Arts
+
+----
+
+Year of Student: Third
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Computer Software (Unity, C#, HLSL, Metashape, Ableton Live), Photogrammetry
+
+----
+
+Description English:
+
+Nakade was inspired by feelings of home and a search for comfort. The name “Nakade” is a double entendre between Bulgarian and Japanese. “Na kade” (на къде) in Bulgarian means “where to?”, in a way posing the question, “where is home found?” In Japanese, “naka de” (中で²) translating to “inside,” answering the question, “home is found inside oneself.” The project consists of a piece of music accompanied by a sequence of photogrammetrically acquired real-life environments that are distorted, melted and bent by experimental graphics programs. The 3D environments that were captured to create this piece are a set of public places encountered during our trip to New York for the Synchrony 2020 event.
+
+
+
+----
+
+Description French:
+
+Nakade est inspiré d’un sentiment d’hospitalité et d’une recherche de confort. Le nom “Nakade” est un double sens qui se lit en bulgare et en japonais. En bulgare, “Na kade” (на къде) signifie “aller où,” posant la question “où se trouve son foyer?” En japonais, “naka de” (中で²) se traduit “à l’intérieur,” répondant ainsi à la question avec “le foyer se trouve en soi”. Le projet consiste en une pièce de musique accompagnée par une séquence de scènes tridimensionnelles créées à l’aide de technologies de photogrammétrie, permettant la transformation d’environnements réels en espaces virtuels. Ces espaces sont déformés, tordus et fondus par des programmes graphiques expérimentaux. Les lieux qui sont représentés dans cette pièce consistent en une série d’espaces publics que nous avons visité lors de notre passage à New York pour l’événement Synchrony 2020.
+
+
+
+----
+
+Quote English:
+
+Process is recognizing one’s own motivations and learning to refine and understand them.
+
+----
+
+
+Quote French:
+
+Le processus consiste à reconnaître ses propres motivations et à apprendre à les affiner et à les comprendre.
+
+----
+
+Tags: Computer Software
+
+----
+
+Title:  Nakade
+

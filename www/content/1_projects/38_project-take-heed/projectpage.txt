@@ -1,0 +1,82 @@
+Cover:
+
+- image_01.jpg
+
+----
+
+Secondary: 
+
+- image_02.jpg
+- image_03.jpg
+- image_04.jpg
+- image_05.jpg
+- image_06.jpg
+- image_07.jpg
+- image_08.jpg
+
+----
+
+Artist: Alessia Signorino, Isabelle Charette, Nina Parenteau, Amélie Charbonneau
+
+----
+
+Contact: signor.aless@gmail.com
+
+----
+
+Type of Project: Object, Interactive, Wearables
+
+----
+
+Program: Design & Computation Arts
+
+----
+
+Year of Student: Fifth
+
+----
+
+Year Created: 2020
+
+----
+
+Materials:  Wearables (Circuitry-augmented garment)
+
+----
+
+Description English:
+
+
+Take Heed is an interactive performance that will consist of two wearable cocoons that will affect each other via an Internet of Things (IoT) network connecting the two garments. Via the use of 9 DOF sensors to detect the movements of its wearer, the signals, and therefore the wearer’s actions, control kinetic panels and embedded LED lights. The cocoon garment serves as a container, defining a transitional universe where its wearer is in a space of liminality. Facing uncertain times, this wearable performance shifts the agency of neurodivergence towards individual autonomy and renewal. The interdisciplinarity of Take Heed involves programming, electronics, a web database, and experimental fashion design.
+
+
+----
+
+Description French:
+
+
+Take Heed est une performance interactive qui consistera de deux cocons portables qui s’affecteront l’un l’autre via “an Internet of things” (IoT) reliant les deux vêtements. Grâce à l’utilisation de 9 capteurs DOF pour détecter les mouvements de son porteur, les signaux, et donc les actions du porteur, contrôleront des panneaux cinétiques et des lumières LED intégrées. Le vêtement cocon sert de contenant, définissant un univers de transition où son porteur se trouve dans un espace de liminalité. Face à des temps incertains, cette performance portable déplace l’agence de la neurodivergence vers l’autonomie et le renouvellement individuels. L’interdisciplinarité de Take Heed implique la programmation, l’électronique, une base de données web et le design de mode expérimental.
+
+
+----
+
+Quote English:
+
+This experiential language potential will bring meditational comfort and interpersonal bonding.
+
+----
+
+
+Quote French:
+
+Ce potentiel linguistique expérimental apportera un confort méditatif et des liens interpersonnels.
+
+
+----
+
+Tags: wearables
+
+----
+
+Title:  Take Heed
+

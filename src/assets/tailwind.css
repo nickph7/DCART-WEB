@@ -52,6 +52,11 @@
 
 body {
     @apply font-body;
+    margin: 0 !important;
+}
+
+page {
+    min-height: calc(100vh - 8rem);
 }
 
 .custom-cursor {
@@ -67,19 +72,45 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
 }
 
+main {
+    @apply px-4 pt-4 mt-10;
+    @screen md {
+        @apply px-8
+    }
+}
+
 footer {
     cursor: url("img/cursor_white_b.svg"), auto;
+    border-top: 1px solid white;
+}
+
+.sponsor-section {
+    cursor: url("img/cursor_white_b.svg"), auto;
+}
+
+a {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #d1d3d4
 }
 
 @tailwind components;
 
 .btn {
-    @apply font-display border-1 border-black px-4 py-2 transition duration-300;
+    @apply font-display border-1 border-black px-4 py-2 bg-white transition duration-300;
 }
 
 .btn:hover {
     @apply bg-black text-white;
 }
+
+.tw-container {
+    @apply pt-4 max-w-screen-lg mx-auto;
+}
+
+
 
 
 @tailwind utilities;

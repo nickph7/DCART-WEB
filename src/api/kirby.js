@@ -28,12 +28,12 @@ export default {
   },
 
   async getPage(id) {
-    const page = await get(`pages/${id}?select=content`)
+    const page = await get(`pages/${id}?select=content,next,prev`)
     return page.content
   },
 
   async getNextPage(page) {
-    const nextPage = await get(`pages/${page}?select=next`)
+    const nextPage = await get(`pages/${page}?select=prev,next`)
     return nextPage
   },
 
@@ -52,6 +52,10 @@ export default {
 
   async getFile(path) {
     return get(`${path}?select=content`)
+  },
+
+  async getFileFromPage(file, page){
+    return get(`pages/${page}/files/${file}?select=content,url,link,type,name`)
   },
  
   async getFileThumb(path, method, ...params) {

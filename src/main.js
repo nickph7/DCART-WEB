@@ -6,10 +6,12 @@ import i18n from './i18n'
 import Vuex from 'vuex'
 import VueGlobalVariable from 'vue-global-var'
 import vueVimeoPlayer from 'vue-vimeo-player'
+import VueRellax from 'vue-rellax'
 
 Vue.config.productionTip = false
 
 Vue.use(Vuex)
+Vue.use(VueRellax)
 Vue.use(VueGlobalVariable, {
   globals: {
     vueI18n: i18n
