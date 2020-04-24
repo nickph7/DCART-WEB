@@ -42,7 +42,6 @@ export default {
       var a = function(){
         mistPlay("broadcast",{
           target: document.getElementById("broadcast_MS5LBWxYWjEY"),
-          controls: false,
           forcePriority: {"source":[["type",["html5/video/webm"]]]}
         });
       };
