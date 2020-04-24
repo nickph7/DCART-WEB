@@ -31,7 +31,7 @@
       }">
         <vimeo-player
           ref="playerAbout"
-          video-id="400743103"
+          video-id="411433483"
           :options="options_about"
           @play="enterVideoTheatre"
           @pause="exitVideoTheatre"
@@ -39,7 +39,7 @@
           class="curatext-video w-screen -ml-4 md:ml-0 md:mx-auto my-2 md:w-11/12 lg:w-10/12 relative md:absolute"
         />
       </div>
-      <span class="humongous-text font-display text-gray-900 absolute">in.finite</span>
+      <span class="hidden md:block humongous-text font-display text-gray-900 absolute">in.finite</span>
       <TextWindow class="curatext-french max-w-none md:max-w-xl italic relative md:absolute z-10">
         <span v-html="curationtext_french"></span>
       </TextWindow>
@@ -47,7 +47,6 @@
 
     <!-- Projects -->
     <div class="project-section flex justify-center items-center content-center relative">
-      <!-- <Filters></Filters> -->
       <div class="absolute z-0 max-w-3xl top-0" :style="{top: imgTop + '%'}">
         <transition name="fade">
           <img
@@ -101,11 +100,17 @@
           Cette exposition est dédiée à la mémoire <br />
           de Valérie Lamontagne (1968–2019).
         </p>
-        <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p>
+        <!-- <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p> -->
         <div class="flex flex-row honor-link">
           <a href="http://www.concordia.ca/cunews/finearts/design/2019/10/28/valerie-lamontagne-1968-2019.html" target="_blank">
-            > Valerie Lamontagne Scholarship Fund</a
-          >
+            <div class="flex flex-row mt-8">
+              <p class="pr-4">></p>
+              <div>
+                <p>Make a Donation / <em>Faite un don</em></p>
+                <p>Valerie Lamontagne Scholarship Fund</p>
+              </div>
+            </div>
+          </a>
         </div>
       </TextWindow>
     </div>
@@ -136,7 +141,8 @@ export default {
         portrait: false,
         loop: true,
         autoplay: true,
-        controls: false
+        controls: false,
+        muted: true
       },
       options_about: {
         responsive: true,

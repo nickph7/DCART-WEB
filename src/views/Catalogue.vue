@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- <Intro :pageTitle="page.title" /> -->
-    <div class="issuu py-10 px-10">
+    <div class="h-full py-10 px-10 mb-10">
       <iframe
         allowfullscreen allow="fullscreen" 
         style="border:none;width:100%;height:800px;"
