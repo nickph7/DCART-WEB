@@ -31,7 +31,7 @@
       }">
         <vimeo-player
           ref="playerAbout"
-          video-id="400743103"
+          video-id="411433483"
           :options="options_about"
           @play="enterVideoTheatre"
           @pause="exitVideoTheatre"
@@ -101,10 +101,11 @@
           Cette exposition est dédiée à la mémoire <br />
           de Valérie Lamontagne (1968–2019).
         </p>
-        <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p>
+        <!-- <p class="mt-8 mb-2">Make a Donation / <em>Faite un don</em></p> -->
         <div class="flex flex-row honor-link">
           <a href="http://www.concordia.ca/cunews/finearts/design/2019/10/28/valerie-lamontagne-1968-2019.html" target="_blank">
-            > Valerie Lamontagne Scholarship Fund</a
+            <p class="mt-8"> > Make a Donation / <em>Faite un don</em></p>
+            Valerie Lamontagne Scholarship Fund</a
           >
         </div>
       </TextWindow>
