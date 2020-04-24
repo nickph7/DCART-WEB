@@ -3,7 +3,7 @@
     <!-- portraits -->
     <div :class="'grid grid-cols-'+numRows+' grid-rows-'+numCols+' grid-flow-row md:grid-cols-'+numCols+' md:grid-rows-'+numRows+' gap-2 w-lg mb-8 md:mb-0 md:w-md md:mr-8'">
       <figure class="rounded-theme" v-for="(image, index) in imageFiles" :key="index">
-        <KirbyImage :file="image" thumb="crop" :params="[200]" class="rounded-theme object-cover" style="width: 200; height: 100%;"/>
+        <KirbyImage :file="image" thumb="crop" :params="[200]" class="rounded-theme object-cover m-auto" style="width: 200; height: 100%;"/>
       </figure>
     </div>   
     <!-- text - add border around text -->
@@ -108,7 +108,7 @@ export default {
   },
   computed: {
     numRows: function(){
-      let rows = Math.floor((this.imageFiles.length / 2) + 1)
+      let rows = Math.ceil(this.imageFiles.length / 2)
       //console.log(rows)
       return rows
     },

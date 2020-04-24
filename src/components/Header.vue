@@ -26,31 +26,4 @@ export default {
 </script>
 
 <style>
-/* .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom: 1px solid black;
-  width: 100vw;
-  background-color: #ffffff;
-  z-index: 99;
-}
-
-.menu a {
-  color: black;
-}
-
-.menu a[aria-current],
-.menu a.router-link-active {
-  border-bottom: 2px solid #000;
-}
-
-@media screen and (min-width: 40rem) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-} 
-*/
-
 </style>
