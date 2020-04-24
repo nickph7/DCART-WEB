@@ -7,7 +7,7 @@
           Word from the curation team
         </h1>
       </div>
-      <div class="flex flex-col lg:flex-row items-center px-12">
+      <div class="flex flex-col lg:flex-row items-center px-0 md:px-12">
         <TextWindow class="max-w-none md:max-w-lg mb-8">
           <p>{{ page.texten }}</p>
         </TextWindow>
@@ -29,7 +29,7 @@
           Mot de l’équipe de curation
         </h1>
       </div>
-      <div class="flex flex-col-reverse lg:flex-row items-center px-12">
+      <div class="flex flex-col-reverse lg:flex-row items-center px-0 md:px-12">
         <!-- Add parallax here -->
         <div
           class="rellax"
@@ -52,7 +52,7 @@
           Word from the faculty advisors
         </h1>
       </div>
-      <div class="flex flex-col lg:flex-row items-center px-12">
+      <div class="flex flex-col lg:flex-row items-center px-0 md:px-12">
         <TextWindow class="max-w-none md:max-w-lg mb-8">
           <p>{{ page.facultyen }}</p>
         </TextWindow>
@@ -74,7 +74,7 @@
           Mot des conseillères académiques
         </h1>
       </div>
-      <div class="flex flex-col-reverse lg:flex-row items-center px-12">
+      <div class="flex flex-col-reverse lg:flex-row items-center px-0 md:px-12">
         <div
           class="rellax"
           v-rellax="{
@@ -91,7 +91,7 @@
         </TextWindow>
       </div>
       <div class="bg-black w-screen">
-        <div class="sponsor-section px-10 py-10 flex flex-col justify-content items-center">
+        <div class="sponsor-section px-2 md:px-10 py-10 flex flex-col justify-content items-center">
           <!-- ENG/FRE - Sponsor -->
           <div>
             <TextWindow class="max-w-full md:max-w-lg mb-8">
@@ -171,7 +171,7 @@ export default {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 45rem) {
+@media screen and (min-width: 1024px) {
   .title-text {
     position: relative;
   }
