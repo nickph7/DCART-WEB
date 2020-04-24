@@ -4,7 +4,7 @@
     <button class="btn uppercase fixed mx-10 pt-10 z-50 transform rotate-90" @click="toggleStream">{{ buttonMessage }}</button>
     <section v-show="!isHidden" class="StreamBar my-10 mx-10 py-4 px-4 max-w-screen-sm w-11/12 inset-y-0 border border-theme">
       <div class="mistvideo h-auto" id="broadcast_MS5LBWxYWjEY">
-        <a href="https://streamserver.live:4433/broadcast.html" target="_blank" id="embededStream">
+        <a href="https://streamserver.live:4433/broadcast.html" target="_blank" id="embededStream" class="w-full h-auto">
           Click here to play this video
         </a>
       </div>

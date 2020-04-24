@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-around items-center md:flex-row md:justify-around md:items-start mx-auto">
     <!-- portraits -->
-    <div :class="'grid grid-cols-'+numRows+' grid-rows-'+numCols+' grid-flow-row md:grid-cols-'+numCols+' md:grid-rows-'+numRows+' gap-2 w-lg mb-8 md:mb-0 md:w-md md:mr-8'">
+    <div :class="'grid grid-cols-'+numCols+' grid-rows-'+numRows+' grid-flow-row md:grid-cols-'+numRows+' md:grid-rows-'+numCols+' gap-2 w-lg mb-8 md:mb-0 md:w-md md:mr-8 artist-grid'">
       <figure class="rounded-theme" v-for="(image, index) in imageFiles" :key="index">
         <KirbyImage :file="image" thumb="crop" :params="[200]" class="rounded-theme object-cover m-auto" style="width: 200; height: 100%;"/>
       </figure>
@@ -130,4 +130,7 @@ export default {
 </script>
 
 <style>
+.artist-grid{
+  max-height: 25rem;
+}
 </style>
