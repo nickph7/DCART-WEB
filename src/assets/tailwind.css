@@ -88,6 +88,14 @@ footer {
     cursor: url("img/cursor_white_b.svg"), auto;
 }
 
+a {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #d1d3d4
+}
+
 @tailwind components;
 
 .btn {

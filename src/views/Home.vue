@@ -150,7 +150,7 @@ export default {
   },
   methods: {
     showPicture(project, index) {
-      console.log(index)
+      //console.log(index)
       this.imgFile = project.content.cover[0] ? project.content.cover[0] : null
       this.imgTop = (index % 28) * 2.142857
       this.isHidden = true
@@ -159,7 +159,7 @@ export default {
       this.isHidden = false
     },
     enterVideoTheatre(){
-      console.log('Enter Video Theatre')
+      //console.log('Enter Video Theatre')
       this.isPlaying = true;
 
     },
@@ -172,12 +172,12 @@ export default {
     this.page.curatext = null
 
     const kten = await this.$api.getKirbyText(this.pageId, 'curatexten', 'curatextfr')
-    console.log(kten)
+    //console.log(kten)
     this.curationtext = kten.curatexten
     this.curationtext_french = kten.curatextfr
 
     const projects = await this.$api.getChildren('projects')
-    console.log(projects)
+    //console.log(projects)
     this.projects = projects.filter(project => project.status === 'listed')
   }
 }

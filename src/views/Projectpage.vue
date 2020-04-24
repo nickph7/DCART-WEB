@@ -2,7 +2,7 @@
   <main class="max-w-screen-lg mx-auto">
     <!-- Title row -->
     <div class="mb-8 flex flex-row flex-wrap">
-      <h1 class="project-title text-3xl md:text-5xl uppercase">{{ page.title }}</h1>
+      <h1 class="project-title text-3xl md:text-5xl uppercase mr-4">{{ page.title }}</h1>
       <div>
         <p>{{ page.year_created }}</p>
       </div>
@@ -13,7 +13,22 @@
       <p class="flex-1 mb-8 sm:mr-3 md:mr-6 max-w-xl">{{ description_english }}</p>
       <p class="flex-1 italic sm:ml-3 md:ml-6 max-w-xl">{{ description_french }}</p>
     </div>
-    <span></span>
+    
+    <!-- attributes -->
+    <div class="my-8 flex flex-row flex-wrap items-start">
+      <div class="flex flex-row mr-16">
+        <div class="attribute font-display font-bold text-lg mr-4">T</div>
+        <div class="leading-loose">{{ type }}</div>
+      </div>
+      <div class="flex flex-row mr-16">
+        <div class="attribute font-display font-bold text-lg mr-4">M</div>
+        <div class="leading-loose">{{ materials }}</div>
+      </div>
+      <div class="flex flex-row mr-16" v-if="url">
+        <div class="attribute font-display font-bold text-lg mr-4">D</div>
+        <div class="leading-loose"><a :href="url" target="_blank" rel="noopener noreferrer"><span class="text-lg pr-1">></span> Download Link</a></div>
+      </div>
+    </div>
 
     <!-- gallery -->
     <!-- <Gallery></Gallery> -->
@@ -33,6 +48,7 @@
       :year="artist.year"
       :quote_english="artist.quote_english"
       :quote_french="artist.quote_french"
+      :contact="artist.contact"
       class="mt-8"></ArtistSection>
 
     <!-- Previous/Next Section  -->
@@ -77,12 +93,16 @@ export default {
       cover: {},
       description_english: '',
       description_french: '',
+      type: '',
+      materials: '',
+      url: null,
       artist: {
         artistNames: '',
         program: '',
         year: '',
         quote_english: '',
-        quote_french: ''
+        quote_french: '',
+        contact: ''
       },
       gallery: [],
       galleryurls: [],
@@ -97,15 +117,21 @@ export default {
   async created() {
     await this.pageLoaded
     //--data from api assignment--
+    //--Description--
     this.description_english = this.page.description_english
     this.description_french = this.page.description_french
+    //--Artist--
     this.artist.artistNames = this.page.artist
     this.artist.program = this.page.program
     this.artist.year = this.page.year_of_student
     this.artist.quote_english = this.page.quote_english
     this.artist.quote_french = this.page.quote_french
-
-    //TODO: Need to fix error with ablum.cover.undefined
+    this.artist.contact = this.page.contact
+    //--Attribute--
+    this.type = this.page.type_of_project
+    this.materials = this.page.materials
+    this.url = this.page.url
+    //photos
     const cover = this.page.cover[0]
     this.cover = cover
     const files = await this.$api.getFiles(this.pageId)
@@ -114,7 +140,7 @@ export default {
     this.gallery.forEach(image => {
       this.galleryurls.push(image.url)
     })
-
+    //previous next
     const adjPages = await this.$api.getNextPage(this.pageId)
     this.adjPages = adjPages
   }
@@ -125,9 +151,15 @@ export default {
 .cover {
   max-height: 40rem;
 }
-/* .project-title {
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: black;
-  color: transparent;
-} */
+
+.attribute {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0.9rem;
+}
 </style>

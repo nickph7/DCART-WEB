@@ -34,6 +34,7 @@
         <p class="mb-4">{{ quote_english }}</p>
         <p class="italic">{{ quote_french }}</p>
       </div>
+      <p class="font-display py-2">Contact: <span class="font-body font-bold">{{ contact }}</span></p>
     </TextWindow>
   </div>
 </template>
@@ -76,23 +77,27 @@ export default {
     },
     artistNames: {
       type: String,
-      default: 'Sideshow Bob, Montgomery Burns, Lisa Simpson, Milhouse Van Houten, Matt Groening'
+      default: 'No Artist'
     },
     program: {
       type: String,
-      default: 'Biology'
+      default: 'No Program'
     },
     year: {
       type: String,
-      default: 'Fifth'
+      default: 'No Year'
     },
     quote_english: {
       type: String,
-      default: "Shia Laboeuf says that you should just do it and I related to that"
+      default: "Quote Missing :("
     },
     quote_french: {
       type: String,
-      default: "Shia laboeuf a dit que je devrais juste le faire et je pense que c'est vrai"
+      default: "Quote Missing :("
+    },
+    contact: {
+      type: String,
+      default: ''
     }
   },
   methods: {
