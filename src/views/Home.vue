@@ -47,7 +47,6 @@
 
     <!-- Projects -->
     <div class="project-section flex justify-center items-center content-center relative">
-      <!-- <Filters></Filters> -->
       <div class="absolute z-0 max-w-3xl top-0" :style="{top: imgTop + '%'}">
         <transition name="fade">
           <img
@@ -137,7 +136,8 @@ export default {
         portrait: false,
         loop: true,
         autoplay: true,
-        controls: false
+        controls: false,
+        muted: true
       },
       options_about: {
         responsive: true,
