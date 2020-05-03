@@ -9,7 +9,7 @@ module.exports = {
   assetsDir: 'assets',
   indexPath: 'site/snippets/vue-index.php',
   routerPath: 'kirby/router.php',
-  publicPath: '/secret/',
+  publicPath: '/',
 
   serveBackend: () => {
     php.createServer({
